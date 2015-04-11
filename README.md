@@ -24,4 +24,7 @@ Path starts twisting and turning
 
 #TODO
 
-The list is too long...
+**HOME**
+**BLOG**
+**PORTFOLIO**
+**CONTACT**
