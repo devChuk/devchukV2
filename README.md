@@ -28,3 +28,5 @@ Path starts twisting and turning
 **BLOG**
 **PORTFOLIO**
 **CONTACT**
+
+https://medium.com/@michaeltheory/finding-home-d0328ca92d21
