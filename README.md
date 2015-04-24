@@ -4,7 +4,7 @@ I'm remaking my personal website. The ideas for it are rather ambitious so this 
 
 #Current Feature in Progress
 
-**HACK_THE_CITY**: Background animation art in home page: water animation
+**HACK_THE_CITY**: Background animation art in home page: water animation >> make a "moving forward" scene
 
 #Notes
 
@@ -24,4 +24,9 @@ Path starts twisting and turning
 
 #TODO
 
-The list is too long...
+**HOME**
+**BLOG**
+**PORTFOLIO**
+**CONTACT**
+
+https://medium.com/@michaeltheory/finding-home-d0328ca92d21
