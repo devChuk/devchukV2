@@ -23,8 +23,14 @@ body {
 	color:white;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 100vh;
+	line-height: 50vh;
 	font-size: 10vh;
+}
+#spacer-small {
+	
+}
+#spacer-large {
+	
 }
 
 #info {
