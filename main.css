@@ -2,15 +2,32 @@ html {
 	/*overflow-y: hidden;*/
 	/*overflow: hidden;*/
 	overflow-x: hidden;
-
 }
-
-
-
 body { 
 	margin: 0; 
+	z-index: 1;
+	position: relative;
+}
+#canvas {
+	width: 100%; height: 100%;
+	position: absolute;
+	top: 0;
+	z-index:-10000;
+}
+#spacer {
+	width: 100%;
+	position: relative;
+	top: 0;
+	height:100vh;
+	z-index: 5000;
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100vh;
+	font-size: 10vh;
 }
 
-canvas {
-	width: 100%; height: 100%
+#info {
+	position: relative;
+	background: #c00;
 }
