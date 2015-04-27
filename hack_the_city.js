@@ -3,7 +3,10 @@ var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHe
 
 var renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+
+// document.body.appendChild( renderer.domElement );
+var $container = $('#canvas');
+$container.append(renderer.domElement);
 
 var geometry = new THREE.BoxGeometry( 2, 5, 1 );
 var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
@@ -12,6 +15,15 @@ cube.rotation.x += 0.1;
 scene.add( cube );
 
 camera.position.z = 5;
+
+window.addEventListener( 'resize', onWindowResize, false );
+
+
+function onWindowResize() {
+	camera.aspect = window.innerWidth / window.innerHeight;
+	camera.updateProjectionMatrix();
+	renderer.setSize( window.innerWidth, window.innerHeight );
+}
 
 function render() {
 	requestAnimationFrame( render );
