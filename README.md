@@ -16,11 +16,17 @@ Inspirations: [Finding Home](http://christmasexperiments.com/experiments/xps/7/)
 
 Fly above animated water with nothing in the horizon
 
-A path rises out of the water, follow path
+Land in the middle to represent Manhattan
 
 Generate buildings
 
-Path starts twisting and turning
+**TITLE TYPOGRAPHY STYLE**
+
+(I'm putting so much design focus on small details..)
+
+Possible Inspirations: [1](http://engzell.me/) | [2](http://sebastiangraz.com/) | [3](http://img.youtube.com/vi/ZwYy4scOJi8/0.jpg) | [4](https://yt3.ggpht.com/-bqkzInqW8IM/VNKkT-dEZxI/AAAAAAAAAlE/a4dlKG1Q3lY/w1060-fcrop64=1,00005a57ffffa5a8-nd/Youtube-Cover-Photo.jpg)
+
+Best way to figure out design ideas is to just make them
 
 #TODO
 
