@@ -36,5 +36,5 @@ Best way to figure out design ideas is to just make them
 **BLOG**
 **PORTFOLIO**
 **CONTACT**
-. 
+
 https://medium.com/@michaeltheory/finding-home-d0328ca92d21
