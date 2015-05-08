@@ -19,14 +19,14 @@
   font-family: 'BIG JOHN';
   font-style: normal;
   font-weight: 400;
-  src: url(BIGJOHN.otf);
+  src: url(./fonts/BIGJOHN.otf);
 }
 /* slim joe */
 @font-face {
   font-family: 'Slim Joe';
   font-style: normal;
   font-weight: 400;
-  src: url(SlimJoe.otf);
+  src: url(./fonts/SlimJoe.otf);
 }
 
 html {
