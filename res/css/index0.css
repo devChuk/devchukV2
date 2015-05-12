@@ -1,3 +1,51 @@
+/*
+Title:			BrianCh.uk Home Screen Styles v1
+Author:			Brian Chuk (brianch.uk)
+Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
+Framework:		Responsive layout based on Less Framework 4 (http://lessframework.com) by Joni Korpi
+
+
+/* RESET STYLES
+----------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: normal;
+	vertical-align: baseline;
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+
+/* HTML5 RESETS FOR OLDER BROWSERS */
+article, aside, figure, figure img, hgroup, footer, header, nav, section {
+	display: block;
+}
+
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input, select { vertical-align: middle; }
+a img { border: 0; }
+:focus { outline: 0; }
+a:hover, a:active { outline: none; }
+
+/* FONT IMPORTS
+----------------------------------------------- */
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -29,6 +77,9 @@
   src: url(./fonts/SlimJoe.otf);
 }
 
+/* GENERAL STYLES
+----------------------------------------------- */
+
 html {
 	overflow-x: hidden;
 	font-family: 'Lato';
@@ -38,6 +89,13 @@ body {
 	z-index: 1;
 	position: relative;
 }
+
+/* ----- SELECTION COLORS ----- */
+/* ----- LINKS ----- */
+
+/* PAGE STRUCTURE
+----------------------------------------------- */
+
 #canvas {
 	position: absolute;
 	z-index:-10000;
@@ -62,3 +120,19 @@ body {
 	position: relative;
 	background: #c00;
 }
+
+/* WIDE DESKTOP LAYOUT 
+----------------------------------------------- */
+/* CLOSE WIDE LAYOUT */
+
+/* TABLET LAYOUT 
+----------------------------------------------- */
+/* CLOSE TABLET LAYOUT */
+
+/* MOBILE LAYOUT (PORTRAIT/320PX) 
+----------------------------------------------- */
+/* CLOSE MOBILE LAYOUT */
+
+/* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
+----------------------------------------------- */
+/* CLOSE WIDE MOBILE LAYOUT */
