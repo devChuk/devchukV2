@@ -52,10 +52,10 @@ body {
 	height:35vh;
 }
 #intro-small {
-	font-size: 5vh;
+	font-size: 5vmin;
 }
 #intro-large {
-	font-size: 10vh;
+	font-size: 10vmin;
 	font-family: 'BIG JOHN';
 }
 #info {
