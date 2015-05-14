@@ -126,7 +126,8 @@ body {
 }
 #info {
 	position: relative;
-	background: #c00;
+	background: #2C3E50;
+	color: #ECF0F1;
 }
 
 /* WIDE DESKTOP LAYOUT 
