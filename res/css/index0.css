@@ -105,14 +105,15 @@ body {
 
 #canvas {
 	position: absolute;
-	z-index:-10000;
+	z-index: -90;
 }
 #intro {
+	background-color: #E74C3C;
+	/*z-index:10000;*/
 	height:100vh;
 	text-align: center;
 	font-size: 2vmin;
 	font-family: 'BIG JOHN';
-	background-color: #E74C3C;
 	color: #ECF0F1;
 }
 #spacer {
