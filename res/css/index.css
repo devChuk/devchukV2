@@ -1,3 +1,58 @@
+/*
+Title:			BrianCh.uk Home Screen Styles v1
+Author:			Brian Chuk (brianch.uk)
+Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
+Framework:		Responsive layout based on Less Framework 4 (http://lessframework.com) by Joni Korpi
+
+
+2C3E50
+E74C3C
+ECF0F1
+3498DB
+2980B9
+
+
+/* RESET STYLES
+----------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: normal;
+	vertical-align: baseline;
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+
+/* HTML5 RESETS FOR OLDER BROWSERS */
+article, aside, figure, figure img, hgroup, footer, header, nav, section {
+	display: block;
+}
+
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input, select { vertical-align: middle; }
+a img { border: 0; }
+:focus { outline: 0; }
+a:hover, a:active { outline: none; }
+
+/* FONT IMPORTS
+----------------------------------------------- */
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -29,6 +84,9 @@
   src: url(./fonts/SlimJoe.otf);
 }
 
+/* GENERAL STYLES
+----------------------------------------------- */
+
 html {
 	overflow-x: hidden;
 	font-family: 'Lato';
@@ -38,28 +96,61 @@ body {
 	z-index: 1;
 	position: relative;
 }
+
+/* ----- SELECTION COLORS ----- */
+/* ----- LINKS ----- */
+
+/* PAGE STRUCTURE
+----------------------------------------------- */
+
 #canvas {
 	position: absolute;
-	z-index:-10000;
+	z-index: -90;
 }
 #intro {
+	background-color: #E74C3C;
+	/*z-index:10000;*/
 	height:100vh;
-	color: white;
 	text-align: center;
-	font-size: 10vh;
+	font-size: 2vmin;
 	font-family: 'BIG JOHN';
+	color: #ECF0F1;
 }
 #spacer {
 	height:35vh;
 }
 #intro-small {
-	font-size: 5vh;
+	font-size: 5vmin;
 }
 #intro-large {
-	font-size: 10vh;
-	font-family: 'BIG JOHN';
+	font-size: 10vmin;
 }
 #info {
 	position: relative;
-	background: #c00;
+	background: #2C3E50;
+	color: #ECF0F1;
 }
+
+/* WIDE DESKTOP LAYOUT 
+----------------------------------------------- */
+@media only screen and (min-width: 992px) {
+
+} /* CLOSE WIDE LAYOUT */
+
+/* TABLET LAYOUT 
+----------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+} /* CLOSE TABLET LAYOUT */
+
+/* MOBILE LAYOUT (PORTRAIT/320PX) 
+----------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+} /* CLOSE MOBILE LAYOUT */
+
+/* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
+----------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+} /* CLOSE WIDE MOBILE LAYOUT */
