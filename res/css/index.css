@@ -113,8 +113,6 @@ body {
 }
 
 #intro {
-	/*background-color: #E74C3C;   /* This is what covers the animation */
-	/*z-index:10000;*/
 	height:100vh;
 	text-align: center;
 	font-size: 2vmin;
@@ -135,7 +133,9 @@ body {
 	background: #2C3E50;
 	color: #ECF0F1;
 }
-
+#callsign{
+	font-size: 5vmin;
+}
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {

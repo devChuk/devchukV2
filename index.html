@@ -6,7 +6,7 @@
 	<head>
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 		<meta content="utf-8" http-equiv="encoding">
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Brian Chuk</title>
 
 		<link rel="stylesheet" href="./res/css/index.css">
@@ -24,10 +24,34 @@
 		</div>
 
 			<div id="info"> 
-				<div> Just call me Chuk.</div>
+				<div id="callsign"> Just call me Chuk.</div>
 				<div>I'm a full stack developer based in New York City. Learn more about me here.</div>
 			</div>
-			<script src="./res/js/hack_the_city.js"></script>
+			<script>
+				var animated = true;
+				if (window.innerWidth > 991) {
+					var hack_the_city = document.createElement('script');
+					hack_the_city.src = './res/js/hack_the_city.js';
+					hack_the_city.type = 'text/javascript';
+					document.body.appendChild(hack_the_city);
+				}
+				else {
+					animated = false;
+				}
+
+				$( window ).resize(function() {
+					if (!animated && window.innerWidth > 991) {
+						var hack_the_city = document.createElement('script');
+						hack_the_city.src = './res/js/hack_the_city.js';
+						hack_the_city.type = 'text/javascript';
+						document.body.appendChild(hack_the_city);
+						animated = true;
+					}
+				});
+			</script>
+			<!-- // <script src="./res/js/hack_the_city.js"></script>			 -->
+			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.js"></script>
+			<script src="./res/js/hack_the_city.js"></script> -->
 	</body>
 </html>
 
