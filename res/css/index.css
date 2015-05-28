@@ -133,9 +133,24 @@ body {
 	background: #2C3E50;
 	color: #ECF0F1;
 }
-#callsign{
+#callsign {
 	font-size: 5vmin;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
 }
+div#callsign span#callsign1 {
+	display: inline;
+}
+div#callsign:hover span#callsign1 {
+	display:none;
+}
+div#callsign span#callsign2 {
+	display:none;
+}
+div#callsign:hover span#callsign2 {
+	display:inline;
+}
+
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
