@@ -113,11 +113,35 @@ body {
 }
 
 #intro {
+	position: relative;
 	height:100vh;
 	text-align: center;
 	font-size: 2vmin;
 	font-family: 'BIG JOHN';
 	color: #ECF0F1;
+}
+#intro:before, #intro:after {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top:0;
+    display: block;
+    width: 50%;
+    height: 100%;
+    border-bottom: 2.5vh solid;
+    border-bottom-color: #2C3E50;
+}
+
+#intro:before {
+    left: 0;
+    border-right: 20px solid transparent;
+    border-left: 0;
+}
+
+#intro:after {
+    right: 0;
+    border-left: 20px solid transparent;
+    border-right: 0;
 }
 #spacer {
 	height:35vh;

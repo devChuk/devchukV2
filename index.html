@@ -21,32 +21,32 @@
 			<div id="intro-small">LETS CREATE THE</div><br>
 			<div id="intro-large">EXTRAORDINARY</div>
 		</div>
-			<div id="info">
-				<div id="callsign"><span id="callsign1">I am Brian Chuk.</span><span id="callsign2">Just call me Chuk.</span></div>
-				<div>I'm a full stack developer based in New York City. Currently, I <strike>save apps from purgatory</strike> do developer evangelism for Syncano & am an HackNY Fellow in Betterpath. In the past I have worked with Kite & Rocket, the Mechatronics Lab at New York University, and other freelance projects on the side. I'm passionate about creating awesome things, from the silliest projects to professional work.</div>
-			<script>
-				var animated = true;
-				if (window.innerWidth > 991) {
+		<
+		<div id="info">
+			<div id="callsign"><span id="callsign1">I am Brian Chuk.</span><span id="callsign2">Just call me Chuk.</span></div>
+			<div>I'm a full stack developer based in New York City. Currently, I <strike>save apps from purgatory</strike> do developer evangelism for Syncano & am an HackNY Fellow in Betterpath. In the past I have worked with Kite & Rocket, the Mechatronics Lab at New York University, and other freelance projects on the side. I'm passionate about creating awesome things, from the silliest projects to professional work.</div>
+		<script>
+			var animated = true;
+			if (window.innerWidth > 991) {
+				var hack_the_city = document.createElement('script');
+				hack_the_city.src = './res/js/hack_the_city.js';
+				hack_the_city.type = 'text/javascript';
+				document.body.appendChild(hack_the_city);
+			}
+			else {animated = false;}
+			$( window ).resize(function() {
+				if (!animated && window.innerWidth > 991) {
 					var hack_the_city = document.createElement('script');
 					hack_the_city.src = './res/js/hack_the_city.js';
 					hack_the_city.type = 'text/javascript';
 					document.body.appendChild(hack_the_city);
-				}
-				else {animated = false;}
-				$( window ).resize(function() {
-					if (!animated && window.innerWidth > 991) {
-						var hack_the_city = document.createElement('script');
-						hack_the_city.src = './res/js/hack_the_city.js';
-						hack_the_city.type = 'text/javascript';
-						document.body.appendChild(hack_the_city);
-						animated = true;
-				}});
-			</script>
+					animated = true;
+			}});
+		</script>
 	</body>
 </html>
 <!--
 	TODO:
-		Add hero div
 		Do fade transition on text hover
 		Rewrite self description
 		Add profile picture
