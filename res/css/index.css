@@ -161,40 +161,48 @@ body {
 	font-size: 5vmin;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
+	text-align: center;
 }
 div#callsign span#callsign1 {
 	display: inline;
 }
 div#callsign:hover span#callsign1 {
-	display:none;
+	display: none;
 }
 div#callsign span#callsign2 {
-	display:none;
+	display: none;
 }
 div#callsign:hover span#callsign2 {
-	display:inline;
+	display: inline;
+}
+#description {
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
+	#description
+	margin: 20vw;
 
+	}
 } /* CLOSE WIDE LAYOUT */
 
 /* TABLET LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+	#intro {background-color: #E74C3C;}
 } /* CLOSE TABLET LAYOUT */
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
 @media only screen and (max-width: 767px) {
-
+	#intro {background-color: #E74C3C;}
 } /* CLOSE MOBILE LAYOUT */
 
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
+	#intro {background-color: #E74C3C;}
 } /* CLOSE WIDE MOBILE LAYOUT */
