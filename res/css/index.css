@@ -153,16 +153,18 @@ body {
 #intro-large {
 	font-size: 10vmin;
 }
-#info {
-	position: relative;
+#info-wrapper {
+	position: absolute;
+	width: 100vw;
 	background: #2C3E50;
 	color: #ECF0F1;
 }
 #callsign {
-	font-size: 5vmin;
+	font-weight: bold;
+	font-size: 35px;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
-	text-align: center;
+	/*text-align: center;*/
 }
 div#callsign span#callsign1 {
 	display: inline;
@@ -176,17 +178,26 @@ div#callsign span#callsign2 {
 div#callsign:hover span#callsign2 {
 	display: inline;
 }
-#description {
-	margin-left: 20vw;
-	margin-right: 20vw;
+#links {
+	position: relative;
+
 }
 
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
-	#description
-	margin: 20vw;
-
+	#info {
+		margin-left: 20vw;
+		margin-right: 20vw;
+		overflow: hidden;
+		float: left;	
+	}
+	#text {
+		width: 600px;
+		float: left;
+	}
+	#profile {
+		float: left;
 	}
 } /* CLOSE WIDE LAYOUT */
 
