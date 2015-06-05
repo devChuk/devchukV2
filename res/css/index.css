@@ -193,7 +193,14 @@ div#callsign:hover span#callsign2 {
 #caption {
 	text-align: center
 }
+#profile {
+	text-align: center;
+	padding-top: 3vh;
 
+}
+#photo {
+	width:20em;
+}
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
@@ -218,7 +225,8 @@ div#callsign:hover span#callsign2 {
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#intro {background-color: #E74C3C;}
-	#info {margin-left: 10vw; margin-right: 10vw}	
+	#info {margin-left: 10vw; margin-right: 10vw}
+	#profile {visibility: hidden;}
 } /* CLOSE TABLET LAYOUT */
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
