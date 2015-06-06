@@ -1,4 +1,4 @@
-/*
+
 Title:			BrianCh.uk Home Screen Styles v1
 Author:			Brian Chuk (brianch.uk)
 Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
@@ -153,85 +153,50 @@ body {
 #intro-large {
 	font-size: 10vmin;
 }
-#info-wrapper {
-	
-}
-#callsign {
-	font-weight: bold;
-	font-size: 35px;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
-	/*text-align: center;*/
-}
-div#callsign span#callsign1 {
-	display: inline;
-}
-div#callsign:hover span#callsign1 {
-	display: none;
-}
-div#callsign span#callsign2 {
-	display: none;
-}
-div#callsign:hover span#callsign2 {
-	display: inline;
-}
-#info {
-	overflow: hidden;
-	float: left;
-	height: 47vh;
-	position: absolute;
-	width: 100vw;
-	background: #2C3E50;
-	color: #ECF0F1;
+#info-wrapper-wrapper {
 	background-color: #2C3E50;
 }
-#links {
-	font-family: 'BIG JOHN';
-	background-color: white;
-	margin-top: 47vh;
-	height: 50.5vh;
-}
-#caption {
-	text-align: center
-}
-#profile {
-	text-align: center;
-	padding-top: 3vh;
-
+#info-wrapper {
+	color: #ECF0F1;
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
 }
 #text {
-	margin-left: 5vw
+	width:450px;
+	float: left;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
 }
-#photo {
-	width:20em;
+#main-text {
+	font-weight: bold;
+	font-size: 35px;
+	padding-bottom: 3vh;
+}
+#sub-text {
+	padding-bottom: 3vh;
+}
+#profile{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	float: right;
+	width:450px;
+	overflow:hidden;
+}
+#caption {
+	text-align: center;
 }
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
-	#links {
-		height: 100vh;
-	}
-	#info {
-		/*margin-left: 20vw;
-		margin-right: 20vw;*/
-		display: inline-block;
-	}
-	#text {
-		width: 600px;
-		float: left;
-	}
-	#profile {
-		padding-top: 3vh;
-		float: right;
-	}
+
+	#profile {float: right;}
 } /* CLOSE WIDE LAYOUT */
 
 /* TABLET LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#intro {background-color: #E74C3C;}
-	#info {margin-left: 10vw; margin-right: 10vw}
-	#profile {visibility: hidden;}
 } /* CLOSE TABLET LAYOUT */
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
@@ -244,4 +209,4 @@ div#callsign:hover span#callsign2 {
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#intro {background-color: #E74C3C;}
-} /* CLOSE WIDE MOBILE LAYOUT */
+} /* CLOSE WIDE MOBILE LAYOUT 
