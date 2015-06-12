@@ -169,23 +169,23 @@ body {
 }
 #blog {
 	float: left;
-	background: url(http://devchuk.github.io/devchuk2/res/img/blog.svg);
+	/*background: url(http://devchuk.github.io/devchuk2/res/img/blog.svg);*/
 	background-color: yellow;
 	background-size: 50vw 50vh;
 }
 #contact {
 	float: right;
-	background: url(http://devchuk.github.io/devchuk2/res/img/contact.svg);
+	/*background: url(http://devchuk.github.io/devchuk2/res/img/contact.svg);*/
 	background-size: 50vw 50vh;
 }
 #about {
 	float: left;
-	background: url(http://devchuk.github.io/devchuk2/res/img/about.svg);
+	/*background: url(http://devchuk.github.io/devchuk2/res/img/about.svg);*/
 	background-size: 50vw 50vh;
 }
 #projects {
 	float: left;
-	background: url(http://devchuk.github.io/devchuk2/res/img/portfolio.svg);
+	/*background: url(http://devchuk.github.io/devchuk2/res/img/portfolio.svg);*/
 	background-size: 50vw 50vh;
 }
 /* WIDE DESKTOP LAYOUT 
