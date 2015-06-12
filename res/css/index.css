@@ -167,6 +167,27 @@ body {
 #pages-wrapper {
 	font-family: 'BIG JOHN';
 }
+#blog {
+	float: left;
+	background: url(http://devchuk.github.io/devchuk2/res/img/blog.svg);
+	background-color: yellow;
+	background-size: 50vw 50vh;
+}
+#contact {
+	float: right;
+	background: url(http://devchuk.github.io/devchuk2/res/img/contact.svg);
+	background-size: 50vw 50vh;
+}
+#about {
+	float: left;
+	background: url(http://devchuk.github.io/devchuk2/res/img/about.svg);
+	background-size: 50vw 50vh;
+}
+#projects {
+	float: left;
+	background: url(http://devchuk.github.io/devchuk2/res/img/portfolio.svg);
+	background-size: 50vw 50vh;
+}
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
@@ -201,6 +222,17 @@ body {
 	}
 	#caption {
 		text-align: center;
+	}
+	#pages-wrapper {
+		height:100vh;
+		width: 100vw;
+	}
+	#about, #blog, #contact, #projects {
+		height: 50vh;
+		color: red;
+		width: 50vw;
+		text-align: center;
+		line-height: 50vh;
 	}
 } /* CLOSE WIDE LAYOUT */
 
