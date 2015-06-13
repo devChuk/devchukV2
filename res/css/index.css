@@ -1,4 +1,3 @@
-
 Title:			BrianCh.uk Home Screen Styles v1
 Author:			Brian Chuk (brianch.uk)
 Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
@@ -88,15 +87,8 @@ a:hover, a:active { outline: none; }
 /* GENERAL STYLES
 ----------------------------------------------- */
 
-html {
-	overflow-x: hidden;
-	font-family: 'Lato';
-}
-body { 
-	margin: 0; 
-	z-index: 1;
-	position: relative;
-}
+html {overflow-x: hidden; font-family: 'Lato';}
+body { margin: 0; z-index: 1;position: relative;}
 
 /* ----- SELECTION COLORS ----- */
 /* ----- LINKS ----- */
@@ -104,15 +96,12 @@ body {
 /* PAGE STRUCTURE
 ----------------------------------------------- */
 
-#canvas {
-	position: absolute;
-	z-index: -90;
-}
+/* Introduction Message */
 
+#canvas { position: absolute; z-index: -90;}
 @media only screen and (max-width: 991px) {
 	#intro {background-color: #E74C3C;}
 }
-
 #intro {
 	position: relative;
 	height:100vh;
@@ -132,82 +121,73 @@ body {
     border-bottom: 2.5vh solid;
     border-bottom-color: #2C3E50;
 }
+#intro:before {left: 0; border-right: 20px solid transparent; border-left: 0;}
+#intro:after {right: 0; border-left: 20px solid transparent; border-right: 0;}
+#spacer {height:35vh;}
+#intro-small {font-size: 5vmin;}
+#intro-large {font-size: 10vmin;}
 
-#intro:before {
-    left: 0;
-    border-right: 20px solid transparent;
-    border-left: 0;
-}
+/* Introduction Information */
 
-#intro:after {
-    right: 0;
-    border-left: 20px solid transparent;
-    border-right: 0;
-}
-#spacer {
-	height:35vh;
-}
-#intro-small {
-	font-size: 5vmin;
-}
-#intro-large {
-	font-size: 10vmin;
-}
-#info-wrapper-wrapper {
-	background-color: #2C3E50;
-}
-#info-wrapper {
-	color: #ECF0F1;
-}
-#main-text {
-	font-weight: bold;
-	font-size: 35px;
-	padding-bottom: 3vh;
-}
-#pages-wrapper {
-	font-family: 'BIG JOHN';
-}
+#info-wrapper-wrapper {background-color: #2C3E50;}
+#info-wrapper {color: #ECF0F1; margin: 0 auto; overflow: hidden;}
+#main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
+#sub-text {	padding-bottom: 3vh;}
+
+/* Page Links */
+
+#pages-wrapper {font-family: 'BIG JOHN';}
 #blog {
 	float: left;
-	/*background: url(http://devchuk.github.io/devchuk2/res/img/blog.svg);*/
+	background: url(http://devchuk.github.io/devchuk2/res/img/blog.svg);
 	background-color: yellow;
-	background-size: 50vw 50vh;
+	background-size: 25vw 25vh;
 }
 #contact {
 	float: right;
-	/*background: url(http://devchuk.github.io/devchuk2/res/img/contact.svg);*/
-	background-size: 50vw 50vh;
+	background: url(http://devchuk.github.io/devchuk2/res/img/contact.svg);
+	background-size: 25vw 25vh;
 }
 #about {
 	float: left;
-	/*background: url(http://devchuk.github.io/devchuk2/res/img/about.svg);*/
-	background-size: 50vw 50vh;
+	background: url(http://devchuk.github.io/devchuk2/res/img/about.svg);
+	background-size: 25vw 25vh;
 }
 #projects {
 	float: left;
-	/*background: url(http://devchuk.github.io/devchuk2/res/img/portfolio.svg);*/
-	background-size: 50vw 50vh;
+	background: url(http://devchuk.github.io/devchuk2/res/img/portfolio.svg);
+	background-size: 25vw 25vh;
+}
+#pages-wrapper {height:25vw; width: 100vw;}
+#about, #blog, #contact, #projects {
+	height: 25vw;
+	color: white;
+	text-decoration: none;
+	font-size: 3vw;
+	width: 25vw;
+	text-align: center;
+	line-height: 25vw;
+}
+#about {
+	background-color: #E74C3C;
+}
+#blog {
+	background-color: #ECF0F1;
+}
+#contact {
+	background-color: #3498DB;
+}
+#projects {
+	background-color: #2980B9;
 }
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
-	#info-wrapper {
-		margin: 0 auto;
-		width: 1000px;
-		overflow: hidden;
-	}
+	#info-wrapper { width: 1000px; }
 	#text {
 		width:450px;
 		float: left;
 		padding-top: 3vh;
-		padding-bottom: 3vh;
-	}
-	#main-text {
-		font-weight: bold;
-		font-size: 35px;
-		padding-bottom: 3vh;
-	}
-	#sub-text {
 		padding-bottom: 3vh;
 	}
 	#profile{
@@ -223,35 +203,19 @@ body {
 	#caption {
 		text-align: center;
 	}
-	#pages-wrapper {
-		height:25vh;
-		width: 100vw;
-	}
-	#about, #blog, #contact, #projects {
-		height: 25vh;
-		color: red;
-		width: 25vw;
-		text-align: center;
-		line-height: 25vh;
-	}
+	#pages-wrapper {height:25vh; width: 100vw;}
+	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
 } /* CLOSE WIDE LAYOUT */
 
 /* TABLET LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#intro {background-color: #E74C3C;}
-	#info-wrapper {
-		margin: 0 auto;
-		width: 768px;
-		overflow: hidden;
-	}
+	#info-wrapper {width: 768px;}
 	#text {
 		width:384px;
 		float: left;
 		padding-top: 3vh;
-		padding-bottom: 3vh;
-	}
-	#sub-text {
 		padding-bottom: 3vh;
 	}
 	#profile{
@@ -267,17 +231,6 @@ body {
 	#caption {
 		text-align: center;
 	}
-	#pages-wrapper {
-		height:25vh;
-		width: 100vw;
-	}
-	#about, #blog, #contact, #projects {
-		height: 25vh;
-		color: red;
-		width: 25vw;
-		text-align: center;
-		line-height: 25vh;
-	}
 } /* CLOSE TABLET LAYOUT */
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
@@ -286,19 +239,7 @@ body {
 	#intro {background-color: yellow;}
 	#text {padding: 3vw;}
 	#profile {display: none;}
-}
-#pages-wrapper {
-		height:25vw;
-		width: 100vw;
-	}
-	#about, #blog, #contact, #projects {
-		height: 25vw;
-		color: red;
-		width: 25vw;
-		text-align: center;
-		line-height: 25vw;
-	} /* CLOSE MOBILE LAYOUT */
-
+} /* CLOSE MOBILE LAYOUT */
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
