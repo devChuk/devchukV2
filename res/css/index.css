@@ -224,15 +224,15 @@ body {
 		text-align: center;
 	}
 	#pages-wrapper {
-		height:100vh;
+		height:25vh;
 		width: 100vw;
 	}
 	#about, #blog, #contact, #projects {
-		height: 50vh;
+		height: 25vh;
 		color: red;
-		width: 50vw;
+		width: 25vw;
 		text-align: center;
-		line-height: 50vh;
+		line-height: 25vh;
 	}
 } /* CLOSE WIDE LAYOUT */
 
@@ -267,6 +267,17 @@ body {
 	#caption {
 		text-align: center;
 	}
+	#pages-wrapper {
+		height:25vh;
+		width: 100vw;
+	}
+	#about, #blog, #contact, #projects {
+		height: 25vh;
+		color: red;
+		width: 25vw;
+		text-align: center;
+		line-height: 25vh;
+	}
 } /* CLOSE TABLET LAYOUT */
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
@@ -275,7 +286,18 @@ body {
 	#intro {background-color: yellow;}
 	#text {padding: 3vw;}
 	#profile {display: none;}
-} /* CLOSE MOBILE LAYOUT */
+}
+#pages-wrapper {
+		height:25vw;
+		width: 100vw;
+	}
+	#about, #blog, #contact, #projects {
+		height: 25vw;
+		color: red;
+		width: 25vw;
+		text-align: center;
+		line-height: 25vw;
+	} /* CLOSE MOBILE LAYOUT */
 
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
