@@ -87,7 +87,7 @@ a:hover, a:active { outline: none; }
 /* GENERAL STYLES
 ----------------------------------------------- */
 
-html {overflow-x: hidden; font-family: 'Lato';}
+html {overflow-x: hidden; font-family: 'Lato'; color: #ECF0F1;}
 body { margin: 0; z-index: 1;position: relative;}
 
 /* ----- SELECTION COLORS ----- */
@@ -108,7 +108,6 @@ body { margin: 0; z-index: 1;position: relative;}
 	text-align: center;
 	font-size: 2vmin;
 	font-family: 'BIG JOHN';
-	color: #ECF0F1;
 }
 #intro:before, #intro:after {
     box-sizing: border-box;
@@ -130,7 +129,7 @@ body { margin: 0; z-index: 1;position: relative;}
 /* Introduction Information */
 
 #info-wrapper-wrapper {background-color: #2C3E50;}
-#info-wrapper {color: #ECF0F1; margin: 0 auto; overflow: hidden;}
+#info-wrapper {margin: 0 auto; overflow: hidden;}
 #main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
 #sub-text {	padding-bottom: 3vh;}
 
@@ -152,7 +151,6 @@ body { margin: 0; z-index: 1;position: relative;}
 #pages-wrapper {height:25vw; width: 100vw;}
 #about, #blog, #contact, #projects {
 	height: 25vw;
-	color: white;
 	text-decoration: none;
 	font-size: 3vw;
 	width: 25vw;
@@ -160,7 +158,7 @@ body { margin: 0; z-index: 1;position: relative;}
 	line-height: 25vw;
 }
 #about {background-color: #E74C3C;}
-#blog {background-color: #ECF0F1;}
+#blog {background-color: #E67E22;}
 #contact {background-color: #3498DB;}
 #projects {background-color: #2980B9;}
 /* WIDE DESKTOP LAYOUT 

@@ -68,17 +68,10 @@
 					animated = true;
 			}});
 
-			$(document).ready(function() {
-			  $("#container").hover(
-			    function(e) { 
-			      $("#one").fadeOut("slow");
-			      $("#two").fadeIn("slow");
-			    },
-			    function(e) {
-			      $("#two").fadeOut("slow");
-			      $("#one").fadeIn("slow");      
-			    }
-			  );
+			$( "button" ).click(function() {
+			  $( this ).parent().slideUp( "slow", function() {
+			    $( "#msg" ).text( $( "button", this ).text() + " has completed." );
+			  });
 			});
 		 </script>
 
