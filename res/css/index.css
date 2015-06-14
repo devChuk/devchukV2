@@ -133,7 +133,8 @@ a {color: #ECF0F1;}
 #info-wrapper {margin: 0 auto; overflow: hidden;}
 #main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
 #sub-text {	padding-bottom: 3vh;}
-.caption {text-align: center;}
+/*.caption {text-align: center;}*/
+#detail1, #detail2, #detail3, #detail4, #detail5 {color:#f1c40f;  cursor: pointer;}
 
 /* Page Links */
 
@@ -171,10 +172,10 @@ a {color: #ECF0F1;}
 		width:450px;
 		float: left;
 		padding-top: 3vh;
-		padding-bottom: 3vh;
+		padding-bottom: 4.5vh;
 	}
+	#profile-spacer {height: 3vh;}
 	.profile{
-		padding-top: 3vh;
 		padding-bottom: 3vh;
 		float: right;
 		width:450px;
@@ -198,8 +199,8 @@ a {color: #ECF0F1;}
 		padding-top: 3vh;
 		padding-bottom: 3vh;
 	}
+	#profile-spacer {height: 3vh;}
 	.profile{
-		padding-top: 3vh;
 		padding-bottom: 3vh;
 		float: right;
 		width:384px;
@@ -215,6 +216,7 @@ a {color: #ECF0F1;}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#intro {background-color: green;}
 	#text {padding: 3vw;}
+	#profile-spacer {display: none;}
 	.profile {display: none;}
 } /* CLOSE WIDE MOBILE LAYOUT
 
@@ -223,6 +225,7 @@ a {color: #ECF0F1;}
 @media only screen and (max-width: 767px) {
 	#intro {background-color: yellow;}
 	#text {padding: 3vw;}
+	#profile-spacer {display: none;}
 	.profile {display: none;}
 	#pages-wrapper {height:100vh; width: 100vw; font-size: 80vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vmin;}

@@ -11,7 +11,7 @@
 
 		<link rel="stylesheet" href="./res/css/index.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.js"></script>
 	</head>
 	<body>
@@ -28,42 +28,59 @@
 					<div id="sub-text">
 						Hey. I'm a software developer & elecrical engineer. This will be my sophomore year at <span id="detail1">New York University</span>. 
 						<br><br>
-						Currently, I am a devangelist for Syncano and a hackNY Fellow for Betterpath. You can also find me programming for a freelance job or working on projects I find meaningful.
+						Currently, I am a devangelist for <span id="detail2">Syncano</span> and a <span id="detail3">hackNY Fellow</span> for <span id="detail4">Betterpath</span>. I've also worked for <span id="detail5">Kite & Rocket</span> & some freelance jobs. Outside of work, you can find me building projects I find meaningful.
 						<br><br>
 						This website is my playground.<br>It's a sandbox for the work I create, and a home for my writing. It's a journal for my past, and a forecast for my future.
 						<br><br>
 						<div> Welcome to my domain. </div>
 					</div>
 				</div>
+				<div id="profile-spacer"></div>
 				<section class="profile" id="profile">
-					<img class="picture" src="http://devchuk.github.io/devchuk2/res/img/profile.jpg"><br><br>
+					<img class="picture" src="./res/img/index/profile.jpg"><br><br>
 					<div class="caption">
 						Born in 1996, I'm a millenial born, raised, and based in New York.
 					</div>
 				</section>
 				<section class="profile" id="profile1" style="display:none;">
-					<img class="picture" src="http://thehotzoneusa.com/wp-content/uploads/2015/05/nyu_logo_new_york_university1.jpg">
+					<img class="picture" src="./res/img/index/nyu.jpg">
 					<br><br>
 					<div class="caption">
-						I am a Computer Science Major in the Engineering School.
+						I'm currently a Computer Science Major in the NYU Polytechnic School of Engineering. A couple courses that I have taken are Object Oriented Programming and Data Structures & Algorithms.<br><br>
+						As of now, most of what I've learned in programming has come from self-teaching. I'm a strong believer in learning by doing and taking education into your own hands.
 					</div>
 				</section>
 				<section class="profile" id="profile2" style="display:none;">
-					<img class="picture" src="http://code.countyofriverside.us/portals/0/Syncano%20logo%20BIG.png">
+					<img class="picture" src="./res/img/index/syncano.png">
 					<br><br>
 					<div class="caption">
-						Syncano is a scalable DaaS that helps developers build complex apps with only front-end code.
+						Syncano is a scalable DaaS that helps developers build complex apps with only front-end code.<br><br>
+						Syncano helps developers focus on their more strategic initiatives so that they don't have to worry about the scaling, syncing and other heavy lifting required in building and deploying modern apps.
 					</div>
 				</section>
 				<section class="profile" id="profile3" style="display:none;">
-					<img class="picture" src="http://apply.hackny.org/assets/hackny-banner-39b413af74d957d408666870cb9f1857.png">
+					<img class="picture" src="./res/img/index/hackny.png">
 					<br><br>
 					<div class="caption">
-						The hackNY Fellows program pairs quantitative and computational students with startups which can demonstrate a strong mentoring environment: a problem for a student to work on, a person to mentor them, and a place for them to work.
+						The hackNY Fellows program pairs quantitative and computational students with startups which can demonstrate a strong mentoring environment: a problem for a student to work on, a person to mentor them, and a place for them to work.<br><br>
+						Students enjoy free housing together over the course of 10 weeks and a pedagogical lecture series to introduce them to the ins and outs of joining and founding a startup.
 					</div>
 				</section>
-				<section class="profile" id="profile4" style="display:none;"></section>
-				<section class="profile" id="profile5" style="display:none;"></section>
+				<section class="profile" id="profile4" style="display:none;">
+					<img class="picture" src="./res/img/index/betterpath.png">
+					<br><br>
+					<div class="caption">
+						Betterpath is a free service that combines what’s happened in your medical history with what’s happening in your life, so you can find connections between what you do and how you feel. In addition to collecting and organizing your medical records for you, it summarizes the facts of your history so you can easily understand what’s happened.<br><br>
+						CHECK HACKNY HANDBOOK
+					</div>
+				</section>
+				<section class="profile" id="profile5" style="display:none;">
+					<img class="picture" src="./res/img/index/kite.gif">
+					<br><br>
+					<div class="caption">
+						Kite and Rocket Research is a product-development firm that creates accessibility products, toys, and medical devices.<br><br>Some of its recent products include the Nerf Vortex line and the Nerf Elite N-Strike blasters.
+					</div>
+				</section>
 			</div>
 		</div>
 		<div id="pages-wrapper">
@@ -73,76 +90,77 @@
 			<a href="/" id="contact">CONTACT</a>
 		</div>
 		 <script>
-			var animated = true;
-			if (window.innerWidth > 991) {
-				var hack_the_city = document.createElement('script');
-				hack_the_city.src = './res/js/hack_the_city.js';
-				hack_the_city.type = 'text/javascript';
-				document.body.appendChild(hack_the_city);
-			}
-			else {animated = false;}
-			$( window ).resize(function() {
-				if (!animated && window.innerWidth > 991) {
-					var hack_the_city = document.createElement('script');
-					hack_the_city.src = './res/js/hack_the_city.js';
-					hack_the_city.type = 'text/javascript';
-					document.body.appendChild(hack_the_city);
-					animated = true;
-			}});
+			// var animated = true;
+			// if (window.innerWidth > 991) {
+			// 	var hack_the_city = document.createElement('script');
+			// 	hack_the_city.src = './res/js/hack_the_city.js';
+			// 	hack_the_city.type = 'text/javascript';
+			// 	document.body.appendChild(hack_the_city);
+			// }
+			// else {animated = false;}
+			// $( window ).resize(function() {
+			// 	if (!animated && window.innerWidth > 991) {
+			// 		var hack_the_city = document.createElement('script');
+			// 		hack_the_city.src = './res/js/hack_the_city.js';
+			// 		hack_the_city.type = 'text/javascript';
+			// 		document.body.appendChild(hack_the_city);
+			// 		animated = true;
+			// }});
 			
-			var animating = false;
-
-			$("#detail1").mouseover(function () {
-				$( "#profile" ).slideUp( 50, function() {
-				    $( "#profile1" ).slideDown("fast");});
+			$("#detail1").click(function () {
+				$( "#profile" ).finish().slideUp( 50, function() {
+				    $( "#profile1" ).finish().slideDown("fast");});
 			}).mouseout(function () {
-				$( "#profile1" ).slideUp( 50, function() {
-				    $( "#profile" ).slideDown("fast");});
+				$( "#profile1" ).finish().slideUp( 50, function() {
+				    $( "#profile" ).finish().slideDown("fast");});
 			});
 
-			// var animating = false;
-			// $(function(){ $("#detail1").mouseover(
-			//     function()
-			//     {
-			//     	if(!animating)
-			//     		$( "#profile" ).slideUp( 200, function() { animating = true; });
-			//     }); 
+			$("#detail2").click(function () {
+				$( "#profile" ).finish().slideUp( 50, function() {
+				    $( "#profile2" ).finish().slideDown("fast");});
+			}).mouseout(function () {
+				$( "#profile2" ).finish().slideUp( 50, function() {
+				    $( "#profile" ).finish().slideDown("fast");});
+			});
 
-			//     $("#detail1").mouseout(
-			//     	function()
-			//     	{
-			//     		$("profile").slideUp( 200, function() { animating = false; }) 
-			//     	});
-			// });
+			$("#detail3").click(function () {
+				$( "#profile" ).finish().slideUp( 50, function() {
+				    $( "#profile3" ).finish().slideDown("fast");});
+			}).mouseout(function () {
+				$( "#profile3" ).finish().slideUp( 50, function() {
+				    $( "#profile" ).finish().slideDown("fast");});
+			});
 
-			// $("#detail1").hover(
-			//     function() { 
-			//      //  $( "#profile" ).slideUp( 5, function() {
-			// 	    // $( "#profile1" ).slideDown("fast");});
-			//     	$( "#profile" ).hide();
-			//     	$( "#profile1" ).show();
-			//     },
-			//     function() {
-			// 		$( "#profile1" ).hide();
-			// 		$( "#profile" ).show();
-			//   });
+			$("#detail4").click(function () {
+				$( "#profile" ).finish().slideUp( 50, function() {
+				    $( "#profile4" ).finish().slideDown("fast");});
+			}).mouseout(function () {
+				$( "#profile4" ).finish().slideUp( 50, function() {
+				    $( "#profile" ).finish().slideDown("fast");});
+			});
+
+			$("#detail5").click(function () {
+				$( "#profile" ).finish().slideUp( 50, function() {
+				    $( "#profile5" ).finish().slideDown("fast");});
+			}).mouseout(function () {
+				$( "#profile5" ).finish().slideUp( 50, function() {
+				    $( "#profile" ).finish().slideDown("fast");});
+			});
+
 
 		 </script>
 	</body>
 </html>
 <!--
 	TODO:
-		Animation on hover: a line appears on the left, and slides to the right. Anything under the line changes to the image being transitioned to. For ex: penn
-
-		Add the four nice images w/ pretty animations yo
-		
-		Animation
 
 		https://color.adobe.com/Flat-UI-color-theme-2469224/
 
-		<img height=25em src="http://www.syncano.com/assets/images/syncano-white.png">
+		Color change
 
-		<img height=25em src="http://apply.hackny.org/assets/hackny-banner-39b413af74d957d408666870cb9f1857.png">
+		Media queries in jQuery
 
-		<img height=25em src="http://www.cns.nyu.edu/~goldwyn/nyu.jpg">
+		Finish descriptions
+
+		Create threeJS animation
 -->
