@@ -26,7 +26,7 @@
 				<div id="text">
 					<div id="main-text">I am Brian Chuk</div>
 					<div id="sub-text">
-						Hey. I'm a software developer & elecrical engineer born, raised, and based in New York City. This will be my sophomore year at New York University. 
+						Hey. I'm a software developer & elecrical engineer. This will be my sophomore year at <span id="detail1">New York University</span>. 
 						<br><br>
 						Currently, I am a devangelist for Syncano and a hackNY Fellow for Betterpath. You can also find me programming for a freelance job or working on projects I find meaningful.
 						<br><br>
@@ -35,13 +35,35 @@
 						<div> Welcome to my domain. </div>
 					</div>
 				</div>
-				<section id="profile">
-					<img id="picture" src="http://devchuk.github.io/devchuk2/res/img/profile.jpg">
-					<br><br>
-					<div id="caption">
-						caption
+				<section class="profile" id="profile">
+					<img class="picture" src="http://devchuk.github.io/devchuk2/res/img/profile.jpg"><br><br>
+					<div class="caption">
+						Born in 1996, I'm a millenial born, raised, and based in New York.
 					</div>
 				</section>
+				<section class="profile" id="profile1" style="display:none;">
+					<img class="picture" src="http://thehotzoneusa.com/wp-content/uploads/2015/05/nyu_logo_new_york_university1.jpg">
+					<br><br>
+					<div class="caption">
+						I am a Computer Science Major in the Engineering School.
+					</div>
+				</section>
+				<section class="profile" id="profile2" style="display:none;">
+					<img class="picture" src="http://code.countyofriverside.us/portals/0/Syncano%20logo%20BIG.png">
+					<br><br>
+					<div class="caption">
+						Syncano is a scalable DaaS that helps developers build complex apps with only front-end code.
+					</div>
+				</section>
+				<section class="profile" id="profile3" style="display:none;">
+					<img class="picture" src="http://apply.hackny.org/assets/hackny-banner-39b413af74d957d408666870cb9f1857.png">
+					<br><br>
+					<div class="caption">
+						The hackNY Fellows program pairs quantitative and computational students with startups which can demonstrate a strong mentoring environment: a problem for a student to work on, a person to mentor them, and a place for them to work.
+					</div>
+				</section>
+				<section class="profile" id="profile4" style="display:none;"></section>
+				<section class="profile" id="profile5" style="display:none;"></section>
 			</div>
 		</div>
 		<div id="pages-wrapper">
@@ -67,15 +89,45 @@
 					document.body.appendChild(hack_the_city);
 					animated = true;
 			}});
+			
+			var animating = false;
 
-			$( "button" ).click(function() {
-			  $( this ).parent().slideUp( "slow", function() {
-			    $( "#msg" ).text( $( "button", this ).text() + " has completed." );
-			  });
+			$("#detail1").mouseover(function () {
+				$( "#profile" ).slideUp( 50, function() {
+				    $( "#profile1" ).slideDown("fast");});
+			}).mouseout(function () {
+				$( "#profile1" ).slideUp( 50, function() {
+				    $( "#profile" ).slideDown("fast");});
 			});
-		 </script>
 
-		 <!--<script src="./res/js/hack_the_city.js" type="text/javascript"> </script>-->
+			// var animating = false;
+			// $(function(){ $("#detail1").mouseover(
+			//     function()
+			//     {
+			//     	if(!animating)
+			//     		$( "#profile" ).slideUp( 200, function() { animating = true; });
+			//     }); 
+
+			//     $("#detail1").mouseout(
+			//     	function()
+			//     	{
+			//     		$("profile").slideUp( 200, function() { animating = false; }) 
+			//     	});
+			// });
+
+			// $("#detail1").hover(
+			//     function() { 
+			//      //  $( "#profile" ).slideUp( 5, function() {
+			// 	    // $( "#profile1" ).slideDown("fast");});
+			//     	$( "#profile" ).hide();
+			//     	$( "#profile1" ).show();
+			//     },
+			//     function() {
+			// 		$( "#profile1" ).hide();
+			// 		$( "#profile" ).show();
+			//   });
+
+		 </script>
 	</body>
 </html>
 <!--
