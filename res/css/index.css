@@ -139,24 +139,15 @@ body { margin: 0; z-index: 1;position: relative;}
 #pages-wrapper {font-family: 'BIG JOHN';}
 #blog {
 	float: left;
-	background: url(http://devchuk.github.io/devchuk2/res/img/blog.svg);
-	background-color: yellow;
-	background-size: 25vw 25vh;
 }
 #contact {
 	float: right;
-	background: url(http://devchuk.github.io/devchuk2/res/img/contact.svg);
-	background-size: 25vw 25vh;
 }
 #about {
 	float: left;
-	background: url(http://devchuk.github.io/devchuk2/res/img/about.svg);
-	background-size: 25vw 25vh;
 }
 #projects {
 	float: left;
-	background: url(http://devchuk.github.io/devchuk2/res/img/portfolio.svg);
-	background-size: 25vw 25vh;
 }
 #pages-wrapper {height:25vw; width: 100vw;}
 #about, #blog, #contact, #projects {
@@ -168,18 +159,10 @@ body { margin: 0; z-index: 1;position: relative;}
 	text-align: center;
 	line-height: 25vw;
 }
-#about {
-	background-color: #E74C3C;
-}
-#blog {
-	background-color: #ECF0F1;
-}
-#contact {
-	background-color: #3498DB;
-}
-#projects {
-	background-color: #2980B9;
-}
+#about {background-color: #E74C3C;}
+#blog {background-color: #ECF0F1;}
+#contact {background-color: #3498DB;}
+#projects {background-color: #2980B9;}
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
@@ -233,17 +216,21 @@ body { margin: 0; z-index: 1;position: relative;}
 	}
 } /* CLOSE TABLET LAYOUT */
 
-/* MOBILE LAYOUT (PORTRAIT/320PX) 
------------------------------------------------ */
-@media only screen and (max-width: 767px) {
-	#intro {background-color: yellow;}
-	#text {padding: 3vw;}
-	#profile {display: none;}
-} /* CLOSE MOBILE LAYOUT */
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#intro {background-color: green;}
 	#text {padding: 3vw;}
 	#profile {display: none;}
-} /* CLOSE WIDE MOBILE LAYOUT 
+} /* CLOSE WIDE MOBILE LAYOUT
+
+/* MOBILE LAYOUT (PORTRAIT/320PX) 
+----------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	#intro {background-color: yellow;}
+	#text {padding: 3vw;}
+	#profile {display: none;}
+	#pages-wrapper {height:100vh; width: 100vw; font-size: 80vw;}
+	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vw;}
+
+} /* CLOSE MOBILE LAYOUT */
