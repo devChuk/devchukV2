@@ -100,9 +100,6 @@ a {color: #ECF0F1;}
 /* Introduction Message */
 
 #canvas { position: absolute; z-index: -90;}
-@media only screen and (max-width: 991px) {
-	#intro {background-color: #E74C3C;}
-}
 #intro {
 	position: relative;
 	height:100vh;
