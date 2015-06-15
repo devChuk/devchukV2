@@ -203,11 +203,12 @@ a {color: #ECF0F1;}
 	.profile{
 		padding-bottom: 3vh;
 		float: right;
-		width:384px;
+		width:364px;
+		padding-left: 20px
 		overflow:hidden;
 	}
 	.picture {
-		width:384px;
+		width:364px;
 	}
 } /* CLOSE TABLET LAYOUT */
 
@@ -222,7 +223,7 @@ a {color: #ECF0F1;}
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
 	#intro {background-color: yellow;}
 	#text {padding: 3vw;}
 	#profile-spacer {display: none;}

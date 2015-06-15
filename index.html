@@ -39,7 +39,7 @@
 				<section class="profile" id="profile">
 					<img class="picture" src="./res/img/index/profile.jpg"><br><br>
 					<div class="caption">
-						Born in 1996, I'm a millenial born, raised, and based in New York.
+						Born in 1996, I'm a millenial born, raised, and based in New York. There's still a lot for me to learn.
 					</div>
 				</section>
 				<section class="profile" id="profile1" style="display:none;">
@@ -54,7 +54,8 @@
 					<img class="picture" src="./res/img/index/syncano.png">
 					<br><br>
 					<div class="caption">
-						Syncano is a scalable DaaS that helps developers build complex apps with only front-end code.<br><br>
+						Syncano is a scalable Data as a Service that allows developers to build mobile and web apps with only front-end code.  With Syncano, devs can easily build complex data models and sync them across any device in real-time.
+						<br><br>
 						Syncano helps developers focus on their more strategic initiatives so that they don't have to worry about the scaling, syncing and other heavy lifting required in building and deploying modern apps.
 					</div>
 				</section>
@@ -70,8 +71,11 @@
 					<img class="picture" src="./res/img/index/betterpath.png">
 					<br><br>
 					<div class="caption">
-						Betterpath is a free service that combines what’s happened in your medical history with what’s happening in your life, so you can find connections between what you do and how you feel. In addition to collecting and organizing your medical records for you, it summarizes the facts of your history so you can easily understand what’s happened.<br><br>
-						CHECK HACKNY HANDBOOK
+						<!-- Betterpath is a free service that combines what’s happened in your medical history with what’s happening in your life, so you can find connections between what you do and how you feel. In addition to collecting and organizing your medical records for you, it summarizes the facts of your history so you can easily understand what’s happened.<br><br>
+						CHECK HACKNY HANDBOOK -->
+
+						Betterpath combines what's happened in your medical history with what's happening in your life. For people with IBD and other chronic diseases, Betterpath combines medical data with self-reported experience to build a better health story. Betterpath helps people with Crohn's disease, ulcerative colitis and other chronic conditions get better, sooner - through a combination of access, ownership and participation.<br><br>
+						As people with chronic disease use Betterpath, their anonymized health information aggregates and potentially contributes to insights that drive better treatment outcomes.
 					</div>
 				</section>
 				<section class="profile" id="profile5" style="display:none;">
@@ -84,12 +88,16 @@
 			</div>
 		</div>
 		<div id="pages-wrapper">
-			<a href="/" id="about">ABOUT</a>
-			<a href="/" id="blog">BLOG</a>
-			<a href="/" id="projects">PROJECTS</a>
-			<a href="/" id="contact">CONTACT</a>
+			<a href="./about" id="about">ABOUT</a>
+			<a href="./blog" id="blog">BLOG</a>
+			<a href="./projects" id="projects">PROJECTS</a>
+			<a href="./contact" id="contact">CONTACT</a>
 		</div>
 		 <script>
+		 	var mobile = false;
+		 	if (window.innerWidth <= 767) {
+		 		mobile = true;
+		 	}
 			// var animated = true;
 			// if (window.innerWidth > 991) {
 			// 	var hack_the_city = document.createElement('script');
@@ -98,53 +106,73 @@
 			// 	document.body.appendChild(hack_the_city);
 			// }
 			// else {animated = false;}
-			// $( window ).resize(function() {
-			// 	if (!animated && window.innerWidth > 991) {
-			// 		var hack_the_city = document.createElement('script');
-			// 		hack_the_city.src = './res/js/hack_the_city.js';
-			// 		hack_the_city.type = 'text/javascript';
-			// 		document.body.appendChild(hack_the_city);
-			// 		animated = true;
-			// }});
+			$( window ).resize(function() {
+				// if (!animated && window.innerWidth > 991) {
+				// 	var hack_the_city = document.createElement('script');
+				// 	hack_the_city.src = './res/js/hack_the_city.js';
+				// 	hack_the_city.type = 'text/javascript';
+				// 	document.body.appendChild(hack_the_city);
+				// 	animated = true;
+				// }
+				if (window.innerWidth <= 767) {
+					mobile = true;
+					$(".profile").hide();
+				}
+				else {
+					mobile = false;
+					$("#profile").show();
+				}
+
+			});
 			
 			$("#detail1").click(function () {
-				$( "#profile" ).finish().slideUp( 50, function() {
-				    $( "#profile1" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile" ).finish().slideUp( 50, function() {
+					    $( "#profile1" ).finish().slideDown("fast");});
 			}).mouseout(function () {
-				$( "#profile1" ).finish().slideUp( 50, function() {
-				    $( "#profile" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile1" ).finish().slideUp( 50, function() {
+				    	$( "#profile" ).finish().slideDown("fast");});
 			});
 
 			$("#detail2").click(function () {
-				$( "#profile" ).finish().slideUp( 50, function() {
-				    $( "#profile2" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile" ).finish().slideUp( 50, function() {
+				    	$( "#profile2" ).finish().slideDown("fast");});
 			}).mouseout(function () {
-				$( "#profile2" ).finish().slideUp( 50, function() {
-				    $( "#profile" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile2" ).finish().slideUp( 50, function() {
+				    	$( "#profile" ).finish().slideDown("fast");});
 			});
 
 			$("#detail3").click(function () {
-				$( "#profile" ).finish().slideUp( 50, function() {
-				    $( "#profile3" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile" ).finish().slideUp( 50, function() {
+				    	$( "#profile3" ).finish().slideDown("fast");});
 			}).mouseout(function () {
-				$( "#profile3" ).finish().slideUp( 50, function() {
-				    $( "#profile" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile3" ).finish().slideUp( 50, function() {
+				    	$( "#profile" ).finish().slideDown("fast");});
 			});
 
 			$("#detail4").click(function () {
-				$( "#profile" ).finish().slideUp( 50, function() {
-				    $( "#profile4" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile" ).finish().slideUp( 50, function() {
+				    	$( "#profile4" ).finish().slideDown("fast");});
 			}).mouseout(function () {
-				$( "#profile4" ).finish().slideUp( 50, function() {
-				    $( "#profile" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile4" ).finish().slideUp( 50, function() {
+				    	$( "#profile" ).finish().slideDown("fast");});
 			});
 
 			$("#detail5").click(function () {
-				$( "#profile" ).finish().slideUp( 50, function() {
-				    $( "#profile5" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile" ).finish().slideUp( 50, function() {
+				    	$( "#profile5" ).finish().slideDown("fast");});
 			}).mouseout(function () {
-				$( "#profile5" ).finish().slideUp( 50, function() {
-				    $( "#profile" ).finish().slideDown("fast");});
+				if (!mobile)
+					$( "#profile5" ).finish().slideUp( 50, function() {
+				    	$( "#profile" ).finish().slideDown("fast");});
 			});
 
 
@@ -155,10 +183,6 @@
 	TODO:
 
 		https://color.adobe.com/Flat-UI-color-theme-2469224/
-
-		Color change
-
-		Media queries in jQuery
 
 		Finish descriptions
 
