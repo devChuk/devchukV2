@@ -82,7 +82,7 @@
 					<img class="picture" src="./res/img/index/kite.gif">
 					<br><br>
 					<div class="caption">
-						Kite and Rocket Research is a product-development firm that creates accessibility products, toys, and medical devices.<br><br>Some of its recent products include the Nerf Vortex line and the Nerf Elite N-Strike blasters.
+						Kite and Rocket Research is a product-development firm that creates accessibility products, toys, and medical devices.<br><br>Some of its notable products include the Nerf Vortex line and the Nerf Elite N-Strike blasters.
 					</div>
 				</section>
 			</div>
@@ -129,6 +129,8 @@
 				if (!mobile)
 					$( "#profile" ).finish().slideUp( 50, function() {
 					    $( "#profile1" ).finish().slideDown("fast");});
+				else
+					document.location = "http://www.nyu.edu/";
 			}).mouseout(function () {
 				if (!mobile)
 					$( "#profile1" ).finish().slideUp( 50, function() {
@@ -139,6 +141,8 @@
 				if (!mobile)
 					$( "#profile" ).finish().slideUp( 50, function() {
 				    	$( "#profile2" ).finish().slideDown("fast");});
+				else
+					document.location = "http://www.syncano.com";
 			}).mouseout(function () {
 				if (!mobile)
 					$( "#profile2" ).finish().slideUp( 50, function() {
@@ -148,7 +152,9 @@
 			$("#detail3").click(function () {
 				if (!mobile)
 					$( "#profile" ).finish().slideUp( 50, function() {
-				    	$( "#profile3" ).finish().slideDown("fast");});
+				    	$( "#profile3" ).finish().slideDown("fast");})
+				else
+					document.location = "http://hackny.org/a/fellows/";
 			}).mouseout(function () {
 				if (!mobile)
 					$( "#profile3" ).finish().slideUp( 50, function() {
@@ -159,6 +165,8 @@
 				if (!mobile)
 					$( "#profile" ).finish().slideUp( 50, function() {
 				    	$( "#profile4" ).finish().slideDown("fast");});
+				else
+					document.location = "http://betterpath.com";
 			}).mouseout(function () {
 				if (!mobile)
 					$( "#profile4" ).finish().slideUp( 50, function() {
@@ -169,6 +177,8 @@
 				if (!mobile)
 					$( "#profile" ).finish().slideUp( 50, function() {
 				    	$( "#profile5" ).finish().slideDown("fast");});
+				else
+					document.location = "http://kiteandrocket.com";
 			}).mouseout(function () {
 				if (!mobile)
 					$( "#profile5" ).finish().slideUp( 50, function() {
@@ -179,12 +189,7 @@
 		 </script>
 	</body>
 </html>
-<!--
-	TODO:
-
-		https://color.adobe.com/Flat-UI-color-theme-2469224/
-
-		Finish descriptions
+<!--	https://color.adobe.com/Flat-UI-color-theme-2469224/
 
 		Create threeJS animation
 -->
