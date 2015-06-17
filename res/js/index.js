@@ -38,58 +38,80 @@ $( window ).resize(function() {
 
 });
 
+var current = "#profile";
+
 $("#detail1").click(function () {
 	if (!mobile)
-		$( "#profile" ).finish().slideUp( 50, function() {
-		    $( "#profile1" ).finish().slideDown("fast");});
+		$( current ).finish().slideUp( 50, function() {
+		    if ("#profile1" == current) {
+		    	$( "#profile" ).finish().slideDown("fast");
+		    	current = "#profile";
+		    }
+		    else {
+			    $( "#profile1" ).finish().slideDown("fast");
+			    current = "#profile1";
+			}
+		});
 	else
 		document.location = "http://www.nyu.edu/";
-}).mouseout(function () {
-	if (!mobile)
-		$( "#profile1" ).finish().slideUp( 50, function() {
-	    	$( "#profile" ).finish().slideDown("fast");});
 });
 
 $("#detail2").click(function () {
 	if (!mobile)
-		$( "#profile" ).finish().slideUp( 50, function() {
-	    	$( "#profile2" ).finish().slideDown("fast");});
+		$( current ).finish().slideUp( 50, function() {
+	    	if ("#profile2" == current) {
+		    	$( "#profile" ).finish().slideDown("fast");
+		    	current = "#profile";
+		    }
+		    else {
+			    $( "#profile2" ).finish().slideDown("fast");
+			    current = "#profile2";
+			}
+	    });
 	else document.location = "http://www.syncano.com";
-}).mouseout(function () {
-	if (!mobile)
-		$( "#profile2" ).finish().slideUp( 50, function() {
-	    	$( "#profile" ).finish().slideDown("fast");});
 });
 
 $("#detail3").click(function () {
 	if (!mobile)
-		$( "#profile" ).finish().slideUp( 50, function() {
-	    	$( "#profile3" ).finish().slideDown("fast");})
+		$( current ).finish().slideUp( 50, function() {
+	    	if ("#profile3" == current) {
+		    	$( "#profile" ).finish().slideDown("fast");
+		    	current = "#profile";
+		    }
+		    else {
+			    $( "#profile3" ).finish().slideDown("fast");
+			    current = "#profile3";
+			}
+	    });
 	else document.location = "http://hackny.org/a/fellows/";
-}).mouseout(function () {
-	if (!mobile)
-		$( "#profile3" ).finish().slideUp( 50, function() {
-	    	$( "#profile" ).finish().slideDown("fast");});
 });
 
 $("#detail4").click(function () {
 	if (!mobile)
-		$( "#profile" ).finish().slideUp( 50, function() {
-	    	$( "#profile4" ).finish().slideDown("fast");});
+		$( current ).finish().slideUp( 50, function() {
+	    	if ("#profile4" == current) {
+		    	$( "#profile" ).finish().slideDown("fast");
+		    	current = "#profile";
+		    }
+		    else {
+			    $( "#profile4" ).finish().slideDown("fast");
+			    current = "#profile4";
+			}
+	    });
 	else document.location = "http://betterpath.com";
-}).mouseout(function () {
-	if (!mobile)
-		$( "#profile4" ).finish().slideUp( 50, function() {
-	    	$( "#profile" ).finish().slideDown("fast");});
 });
 
 $("#detail5").click(function () {
 	if (!mobile)
-		$( "#profile" ).finish().slideUp( 50, function() {
-	    	$( "#profile5" ).finish().slideDown("fast");});
+		$( current ).finish().slideUp( 50, function() {
+	    	if ("#profile5" == current) {
+		    	$( "#profile" ).finish().slideDown("fast");
+		    	current = "#profile";
+		    }
+		    else {
+			    $( "#profile5" ).finish().slideDown("fast");
+			    current = "#profile5";
+			}
+	    });
 	else document.location = "http://kiteandrocket.com";
-}).mouseout(function () {
-	if (!mobile)
-		$( "#profile5" ).finish().slideUp( 50, function() {
-	    	$( "#profile" ).finish().slideDown("fast");});
 });
