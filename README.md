@@ -2,9 +2,9 @@
 
 I'm remaking my personal website.
 
-Here's the [new version](devchuk.github.io/devchuk2/).
+Here's the [new version](http://devchuk.github.io/devchuk2/).
 
-Here's the [old](devchuk.github.io)
+Here's the [old](http://devchuk.github.io)
 
 
 
