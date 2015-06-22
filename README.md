@@ -1,6 +1,11 @@
 # devchuk.github.io 2.0
 
-I'm remaking my personal website. The ideas for it are rather ambitious so this may take longer than any project I've ever done.
+I'm remaking my personal website.
+
+Here's the [new version](http://devchuk.github.io/devchuk2/).
+
+Here's the [old](http://devchuk.github.io)
+
 
 
 #Notes
