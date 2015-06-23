@@ -15,7 +15,7 @@ var $container = $('#canvas');
 $container.append(renderer.domElement);
 
 // Creating objects
-var geometry = new THREE.BoxGeometry( 0, 0, 0 );
+var geometry = new THREE.BoxGeometry( 1, 1, 1 );
 var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 var cube = new THREE.Mesh( geometry, material );
 cube.rotation.x += 0.1;
@@ -45,11 +45,14 @@ function render() {
 		var cubey = new THREE.Mesh( geometryy, materiall );
 		scene.add( cubey );
 		cubey.position.x = cube.position.x;
-		rotationswag += 0.1;
+		rotationswag += 0.01;
 		cubey.rotation.x += rotationswag;
 		console.log(count);
 		renderer.render( scene, camera );
 	}
+	console.log(count);
+	if (count > 1000)
+		scene.remove(cube);
 	requestAnimationFrame( render );
 	cube.rotation.x += 0.01;
 	cube.rotation.y += 0.01;
