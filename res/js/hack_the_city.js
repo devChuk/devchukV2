@@ -26,8 +26,8 @@ function onWindowResize() {
 	renderer.setSize( window.innerWidth, window.innerHeight );
 }
 
-	var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-	var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 	
 var objects = [];
 var count = 0;
@@ -35,10 +35,12 @@ var count = 0;
 // Rendering the scene
 function render() {
 	requestAnimationFrame( render );
-	console.log(count++);
-	console.log(objects);
-	if (count % 100 == 0) {	
-		var cube = new THREE.Mesh( geometry, material );
+	count++;
+	if (count % 10 == 0) {	
+		var pls = '0x'+Math.floor(Math.random()*16777215).toString(16);
+		var materialz = new THREE.MeshBasicMaterial( { color: 0x6699ff } );
+		var cube = new THREE.Mesh( geometry, materialz );
+		cube.material.color.setHex( pls );
 		scene.add( cube );
 		objects.push(cube);
 	}
