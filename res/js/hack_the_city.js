@@ -16,7 +16,7 @@ $container.append(renderer.domElement);
 
 camera.position.z = 30;
 camera.position.y = 5;
-camera.rotation.x = -0.4;
+camera.rotation.x = -0.8;
 
 
 // Window resize settings
@@ -28,14 +28,16 @@ function onWindowResize() {
 }
 
 var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+
 	
 var objects = {};
 var count = 0;
 var index = 0;
 // var colors = ['0xFFEBEE', '0xFFCDD2', '0xEF9A9A', '0xE57373', '0xEF5350', '0xF44336', '0xE53935', '0xD32F2F', '0xC62828', '0xB71C1C'];
 var colors = ['0xF44336', '0x9C27B0', '0x2196F3', '0x4CAF50', '0xFFEB3B', '0xFF5722'];
-
+var light = new THREE.PointLight( 0xffffff, 1, 0 );
+light.position.set( 0, 10, 30 );
+scene.add( light );
 
 // Rendering the scene
 function render() {
@@ -44,7 +46,7 @@ function render() {
 	if (count % 10 == 0) {
 		for (var i = -30; i < 31; i++) {
 			var pls = colors[Math.floor(Math.random() * 6)];//'0x'+Math.floor(Math.random()*16777215).toString(16);
-			var materialz = new THREE.MeshBasicMaterial( { color: 0x6699ff } );
+			var materialz = new THREE.MeshPhongMaterial( { color: 0x6699ff } );
 			var cube = new THREE.Mesh( geometry, materialz );
 			scene.add( cube );
 			cube.position.x += i;
