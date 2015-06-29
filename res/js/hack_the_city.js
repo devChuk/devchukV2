@@ -10,6 +10,10 @@ http://imgur.com/2xx8BrK
 http://turnislefthome.tumblr.com/post/121867827385/excited-to-have-an-illustration-in-the-new
 
 
+
+https://www.google.com/search?q=low+poly+whale+threejs&espv=2&biw=1855&bih=995&source=lnms&tbm=isch&sa=X&ei=MMqQVfjfGoPn-QGsnJ3IBg&ved=0CAYQ_AUoAQ#tbm=isch&q=low+poly+art+whale&imgrc=n5M9MEsRfrWWBM%3A
+https://vimeo.com/61510123
+
 */
 
 var count, index, objects, scene, geometry, camera;
