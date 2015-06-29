@@ -25,7 +25,7 @@ var $container = $('#canvas');
 $container.append(renderer.domElement);
 
 camera.position.z = 30;
-camera.position.y = 5;
+camera.position.y = 4.4;
 camera.rotation.x = -0.8;
 
 
@@ -36,10 +36,16 @@ function onWindowResize() {
 	camera.updateProjectionMatrix();
 	renderer.setSize( window.innerWidth, window.innerHeight );
 }
+// Setting up constant shapes
+var geometry = new THREE.BoxGeometry( 60, 1, 60 );
+var materialz = new THREE.MeshPhongMaterial( { color: 0x282B2A } );
+var cube = new THREE.Mesh( geometry, materialz );
+scene.add( cube );
+cube.position.y = -1;
+cube.position.z = 25;
 
-var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-
-	
+// Setting up constants for render loop
+var geometry = new THREE.BoxGeometry( 1, 0.1, 1 );	
 var objects = {};
 var count = 0;
 var index = 0;
@@ -60,7 +66,7 @@ function render() {
 			var cube = new THREE.Mesh( geometry, materialz );
 			scene.add( cube );
 			cube.position.x += i;
-			cube.material.color.setHex( pls );
+			cube.material.color.setHex( 0xf2f2f2 );
 			objects[index++] = cube;
 		}
 	}
