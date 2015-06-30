@@ -11,7 +11,7 @@ var mobile = false;
 var animated = true;
 if (window.innerWidth > 991) {
 	var hack_the_city = document.createElement('script');
-	hack_the_city.src = './res/js/hack_the_city.js';
+	hack_the_city.src = './res/js/temp.js';
 	hack_the_city.type = 'text/javascript';
 	document.body.appendChild(hack_the_city);
 }
@@ -21,7 +21,7 @@ $( window ).resize(function() {
 	
 	if (!animated && window.innerWidth > 991) {
 		var hack_the_city = document.createElement('script');
-		hack_the_city.src = './res/js/hack_the_city.js';
+		hack_the_city.src = './res/js/temp.js';
 		hack_the_city.type = 'text/javascript';
 		document.body.appendChild(hack_the_city);
 		animated = true;

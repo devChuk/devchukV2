@@ -1,4 +1,14 @@
-var container, stats;
+/*
+Title:			BrianCh.uk Home Screen Javascript ThreeJS Animation v1
+Author:			Brian Chuk (brianch.uk)
+Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
+
+I would use some of my other animations for the background, but I've found that it was too distracting haha.
+Test users would just stare at the animation & not realize that they could scroll down haha
+
+*/
+
+var container;
 
 var camera, scene, renderer;
 
@@ -24,14 +34,18 @@ function init() {
 	camera.position.z = 500;
 
 	scene = new THREE.Scene();
-	scene.fog = new THREE.Fog( 0xffffff, 1, 10000 );
 
 	var geometry = new THREE.BoxGeometry( 100, 100, 100 );
-	var material = new THREE.MeshNormalMaterial();
 
 	group = new THREE.Group();
 
+	var colors = ['0xF44336', '0x9C27B0', '0x2196F3', '0x4CAF50', '0xFFC107', '0xFF5722'];
+
 	for ( var i = 0; i < 1000; i ++ ) {
+
+		var pls = colors[Math.floor(Math.random() * 6)];
+
+		var material = new THREE.MeshBasicMaterial();
 
 		var mesh = new THREE.Mesh( geometry, material );
 		mesh.position.x = Math.random() * 2000 - 1000;
@@ -40,6 +54,8 @@ function init() {
 
 		mesh.rotation.x = Math.random() * 2 * Math.PI;
 		mesh.rotation.y = Math.random() * 2 * Math.PI;
+
+		mesh.material.color.setHex( pls );
 
 		mesh.matrixAutoUpdate = false;
 		mesh.updateMatrix();
@@ -51,18 +67,12 @@ function init() {
 	scene.add( group );
 
 	renderer = new THREE.WebGLRenderer();
-	renderer.setClearColor( "#E74C3C" );
+	renderer.setClearColor( "#2980B9" );
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	renderer.sortObjects = false;
 
 	container.appendChild( renderer.domElement );
-
-	stats = new Stats();
-	stats.domElement.style.position = 'absolute';
-	stats.domElement.style.top = '0px';
-	stats.domElement.style.zIndex = 100;
-	container.appendChild( stats.domElement );
 
 //
 
@@ -96,7 +106,6 @@ function animate() {
 	requestAnimationFrame( animate );
 
 	render();
-	stats.update();
 
 }
 
@@ -108,8 +117,8 @@ function render() {
 		ry = Math.sin( time * 0.3 ) * 0.5,
 		rz = Math.sin( time * 0.2 ) * 0.5;
 
-	camera.position.x += ( mouseX - camera.position.x ) * .05;
-	camera.position.y += ( - mouseY - camera.position.y ) * .05;
+	// camera.position.x += ( mouseX - camera.position.x ) * .05;
+	// camera.position.y += ( - mouseY - camera.position.y ) * .05;
 
 	camera.lookAt( scene.position );
 
