@@ -21,6 +21,7 @@ var renderer = new THREE.WebGLRenderer();
 
 var raycaster;
 var mouse = new THREE.Vector2(), INTERSECTED;
+var grower;
 
 
 
@@ -86,12 +87,14 @@ function please() {
 
 			if ( INTERSECTED ) {
 				INTERSECTED.material.emissive.setHex( INTERSECTED.currentHex );
+
 			}
 
 			INTERSECTED = intersects[ 0 ].object;
 			INTERSECTED.currentHex = INTERSECTED.material.emissive.getHex();
 			INTERSECTED.material.emissive.setHex( 0xff0000 );
-			INTERSECTED.scale.y += 1;
+			// INTERSECTED.scale.y += 1;
+			grower = INTERSECTED;
 		}
 
 	} else {
@@ -121,6 +124,12 @@ function render() {
 			objects[index++] = cube;
 		}
 	}
+
+	if (grower) {
+		grower.scale.y += 0.5;
+		// grower = null;
+	}
+
 	for (var i in objects) {
 		objects[i].position.z += 0.1;
 		if (objects[i].position.z >= 30) {
