@@ -84,7 +84,13 @@ a:hover, a:active { outline: none; }
   font-weight: 400;
   src: url(./fonts/SlimJoe.otf);
 }
-
+/* keep calm */
+@font-face {
+  font-family: 'Keep Calm';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/KeepCalm-Medium.ttf);
+}
 /* GENERAL STYLES
 ----------------------------------------------- */
 
@@ -108,6 +114,7 @@ a {color: #ECF0F1;}
 	font-size: 2vmin;
 	font-family: 'BIG JOHN';
 }
+#intro-small, #subintro, #subintro1, #subintro2, #subintro3 {font-family: 'Keep Calm'}
 #intro {height:100vh;}
 #intro:before, #intro:after, #subintro:before, #subintro:after, #subintro1:before, #subintro1:after, #subintro2:before, #subintro2:after, #subintro3:before, #subintro3:after {
     box-sizing: border-box;
@@ -138,7 +145,7 @@ a {color: #ECF0F1;}
 
 /* Page Links */
 
-#pages-wrapper {font-family: 'BIG JOHN';}
+#pages-wrapper {font-family: 'Keep Calm';}
 #blog {
 	float: left;
 }
@@ -192,7 +199,7 @@ a {color: #ECF0F1;}
 /* TABLET LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	#intro {background-color: #E74C3C;}
+	#intro {background-color: #0D47A1;}
 	#info-wrapper {width: 768px;}
 	#text {
 		width:384px;
@@ -216,7 +223,7 @@ a {color: #ECF0F1;}
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	#intro {background-color: #E74C3C;}
+	#intro {background-color: #0D47A1;}
 	#text {padding: 3vw;}
 	#profile-spacer {display: none;}
 	.profile {display: none;}
@@ -225,7 +232,7 @@ a {color: #ECF0F1;}
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
 @media only screen and (max-width: 480px) {
-	#intro {background-color: #E74C3C;}
+	#intro {background-color: #0D47A1;}
 	#text {padding: 3vw;}
 	#profile-spacer {display: none;}
 	.profile {display: none;}

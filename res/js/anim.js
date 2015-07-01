@@ -67,7 +67,7 @@ function init() {
 	scene.add( group );
 
 	renderer = new THREE.WebGLRenderer();
-	renderer.setClearColor( "#2980B9" );
+	renderer.setClearColor( "#0D47A1" ); //2980B9
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	renderer.sortObjects = false;
@@ -117,8 +117,8 @@ function render() {
 		ry = Math.sin( time * 0.3 ) * 0.5,
 		rz = Math.sin( time * 0.2 ) * 0.5;
 
-	// camera.position.x += ( mouseX - camera.position.x ) * .05;
-	// camera.position.y += ( - mouseY - camera.position.y ) * .05;
+	camera.position.x += ( mouseX - camera.position.x ) * .05;
+	camera.position.y += ( - mouseY - camera.position.y ) * .05;
 
 	camera.lookAt( scene.position );
 
