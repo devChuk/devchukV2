@@ -227,6 +227,7 @@ a {color: #ECF0F1;}
 	#text {padding: 3vw;}
 	#profile-spacer {display: none;}
 	.profile {display: none;}
+	.what {display: initial;}
 } /* CLOSE WIDE MOBILE LAYOUT
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
@@ -236,6 +237,7 @@ a {color: #ECF0F1;}
 	#text {padding: 3vw;}
 	#profile-spacer {display: none;}
 	.profile {display: none;}
+	.what {display: initial; padding: 3vw;}
 	#pages-wrapper {height:100vh; width: 100vw; font-size: 80vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vmin;}
 
