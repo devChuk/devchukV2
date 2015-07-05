@@ -1,5 +1,5 @@
 /*
-Title:			BrianCh.uk Home Screen Styles v1
+Title:			BrianCh.uk Screen Styles v1
 Author:			Brian Chuk (brianch.uk)
 Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
 Framework:		Responsive layout based on Less Framework 4 (http://lessframework.com) by Joni Korpi
@@ -41,7 +41,7 @@ article, aside, figure, figure img, hgroup, footer, header, nav, section {
 	display: block;
 }
 
-ol, ul { list-style: none; }
+/*ol, ul { list-style: none; }*/
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after { content: ''; content: none; }
@@ -172,6 +172,21 @@ a {color: #ECF0F1;}
 #projects, #subintro2 {background-color: #2980B9;}
 #contact, #subintro3 {background-color: #3498DB;}
 
+/* About Page */
+.expertise {
+	width: 47%;
+	float: left;
+	text-align: center;
+	font-weight: 700;
+}
+.expertise div {
+	font-size: 1.1em;
+}
+.expertise li {
+	text-align: left;
+	line-height: 25px;
+}
+
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
@@ -182,8 +197,8 @@ a {color: #ECF0F1;}
 		padding-top: 3vh;
 		padding-bottom: 4.5vh;
 	}
-	#profile-spacer {height: 3vh;}
-	.profile{
+	.profile-spacer {height: 3vh;}
+	.profile, .profileV{
 		padding-bottom: 3vh;
 		float: right;
 		width:450px;
@@ -207,14 +222,15 @@ a {color: #ECF0F1;}
 		padding-top: 3vh;
 		padding-bottom: 3vh;
 	}
-	#profile-spacer {height: 3vh;}
-	.profile{
+	.profile-spacer {height: 3vh;}
+	.profile, .profileV{
 		padding-bottom: 3vh;
 		float: right;
 		width:364px;
 		padding-left: 20px
 		overflow:hidden;
 	}
+	
 	.picture {
 		width:364px;
 	}
@@ -224,21 +240,20 @@ a {color: #ECF0F1;}
 ----------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#intro {background-color: #0D47A1;}
-	#text {padding: 3vw;}
-	#profile-spacer {display: none;}
-	.profile {display: none;}
-	.what {display: initial;}
+	#text, .profileV {padding: 3vw;}
+	.profile-spacer, .profile {display: none;}
+	.revprofile-spacer {height: 3vh;}
+
 } /* CLOSE WIDE MOBILE LAYOUT
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
 @media only screen and (max-width: 480px) {
 	#intro {background-color: #0D47A1;}
-	#text {padding: 3vw;}
-	#profile-spacer {display: none;}
-	.profile {display: none;}
-	.what {display: initial; padding: 3vw;}
+	#text, .profileV {padding: 3vw;}
+	.profile-spacer, .profile {display: none;}
 	#pages-wrapper {height:100vh; width: 100vw; font-size: 80vw;}
+	.revprofile-spacer {height: 3vh;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vmin;}
 
 } /* CLOSE MOBILE LAYOUT */
