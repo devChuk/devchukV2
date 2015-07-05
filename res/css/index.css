@@ -141,7 +141,7 @@ a {color: #ECF0F1;}
 .main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
 #sub-text {	padding-bottom: 3vh;}
 /*.caption {text-align: center;}*/
-#detail1, #detail2, #detail3, #detail4, #detail5, em a {color:#f1c40f; text-decoration: none; cursor: pointer;}
+#sub-text a, #detail1, #detail2, #detail3, #detail4, #detail5, em a {color:#f1c40f; text-decoration: none; cursor: pointer;}
 
 /* Page Links */
 
@@ -176,7 +176,6 @@ a {color: #ECF0F1;}
 .expertise {
 	width: 47%;
 	float: left;
-	text-align: center;
 	font-weight: 700;
 }
 .expertise div {
@@ -185,6 +184,7 @@ a {color: #ECF0F1;}
 .expertise li {
 	text-align: left;
 	line-height: 25px;
+	font-weight: normal;
 }
 #info-wrapper i {
 	vertical-align: middle;
@@ -264,4 +264,5 @@ a {color: #ECF0F1;}
 	.revprofile-spacer {height: 3vh;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vmin;}
 	#info-wrapper em {line-height: 3em;	font-size: 1em;}
+	.eCustom {display: block; width: 100%}
 } /* CLOSE MOBILE LAYOUT */

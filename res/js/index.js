@@ -101,17 +101,17 @@ $("#detail4").click(function () {
 	else document.location = "http://betterpath.com";
 });
 
-$("#detail5").click(function () {
-	if (!mobile)
-		$( current ).finish().slideUp( 50, function() {
-	    	if ("#profile5" == current) {
-		    	$( "#profile" ).finish().slideDown("fast");
-		    	current = "#profile";
-		    }
-		    else {
-			    $( "#profile5" ).finish().slideDown("fast");
-			    current = "#profile5";
-			}
-	    });
-	else document.location = "http://kiteandrocket.com";
-});
+// $("#detail5").click(function () {
+// 	if (!mobile)
+// 		$( current ).finish().slideUp( 50, function() {
+// 	    	if ("#profile5" == current) {
+// 		    	$( "#profile" ).finish().slideDown("fast");
+// 		    	current = "#profile";
+// 		    }
+// 		    else {
+// 			    $( "#profile5" ).finish().slideDown("fast");
+// 			    current = "#profile5";
+// 			}
+// 	    });
+// 	else document.location = "http://kiteandrocket.com";
+// });
