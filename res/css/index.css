@@ -94,7 +94,7 @@ a:hover, a:active { outline: none; }
 /* GENERAL STYLES
 ----------------------------------------------- */
 
-html {overflow-x: hidden; font-family: 'Lato'; color: #ECF0F1;}
+html {overflow-x: hidden; font-family: 'Lato'; color: #ECF0F1; background-color: #2C3E50;}
 body { margin: 0; z-index: 1;position: relative;}
 
 /* ----- SELECTION COLORS ----- */
@@ -138,10 +138,10 @@ a {color: #ECF0F1;}
 
 #info-wrapper-wrapper {background-color: #2C3E50;}
 #info-wrapper {margin: 0 auto; overflow: hidden;}
-#main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
+.main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
 #sub-text {	padding-bottom: 3vh;}
 /*.caption {text-align: center;}*/
-#detail1, #detail2, #detail3, #detail4, #detail5 {color:#f1c40f;  cursor: pointer;}
+#detail1, #detail2, #detail3, #detail4, #detail5, em a {color:#f1c40f; text-decoration: none; cursor: pointer;}
 
 /* Page Links */
 
@@ -185,6 +185,14 @@ a {color: #ECF0F1;}
 .expertise li {
 	text-align: left;
 	line-height: 25px;
+}
+#info-wrapper i {
+	vertical-align: middle;
+}
+#info-wrapper em {
+	display: block;
+	line-height: 4em;
+	font-size: 1.3em;
 }
 
 /* WIDE DESKTOP LAYOUT 
@@ -255,5 +263,5 @@ a {color: #ECF0F1;}
 	#pages-wrapper {height:100vh; width: 100vw; font-size: 80vw;}
 	.revprofile-spacer {height: 3vh;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vmin;}
-
+	#info-wrapper em {line-height: 3em;	font-size: 1em;}
 } /* CLOSE MOBILE LAYOUT */
