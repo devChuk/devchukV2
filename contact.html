@@ -58,13 +58,11 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 			$(document).ready(function() {
 				var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 				$( ":button" ).click(function() {
-					$( "#formy" ).slideUp(100);
 					if ($( ".pure-input-1" )[0].value && re.test($( ".pure-input-1" )[1]) && $( ".pure-input-1" )[2].value) {
 						$(this).text(" SENT").addClass("disabled");
-
-
+						$( "#formy" ).slideUp(100);
+						$( ".main-text" ).text("Thanks for the message! A reply will come shortly.");
 					}
-					//https://formden.com/blog/validate-contact-form-jquery
 
 				});
 			});
