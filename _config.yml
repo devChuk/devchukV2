@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      true
+highlighter:      pygments
 
 exclude: ['YEAR-MM-DD-example-content.md']
 
@@ -31,4 +31,4 @@ excerpt_separator: <!---excerpt-->
 version:          2.1.0
 
 github:
-  repo:           https://github.com/devChuk/devchuk.github.io
+  repo:           https://github.com/devChuk/devchuk2
