@@ -36,22 +36,38 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 				<div class="main-text" style="padding-top:3vh">Let's grab coffee</div>
 				
 					<form class="pure-form" style="color:black" method="POST" action="http://formspree.io/devchuk@gmail.com">
-						<div class="to100">
+						<div id="formy">
+							<div class="to100">
+							    <fieldset class="pure-group">
+							        <input name="Name" type="text" class="pure-input-1" placeholder="Name" required>
+							        <input name="_replyto" type="email" class="pure-input-1" placeholder="Email" required>
+							    </fieldset>
+						   </div>
 						    <fieldset class="pure-group">
-						        <input name="Name" type="text" class="pure-input-1" placeholder="Name" required>
-						        <input name="_replyto" type="email" class="pure-input-1" placeholder="Email" required>
+						        <textarea name="Message" class="pure-input-1" style="resize: vertical"rows="20" placeholder="Message" required></textarea>
 						    </fieldset>
 					   </div>
-					    <fieldset class="pure-group">
-					        <textarea name="Message" class="pure-input-1" style="resize: vertical"rows="20" placeholder="Message" required></textarea>
-					    </fieldset>
-					    <button style="width:100%" type="submit" name="_next" value="http://devchuk.github.io/sent.html#sent" class="button button-block button-rounded button-white button-large"><i class="fa fa-paper-plane-o"></i> SEND</button>
+					    <button style="width:100%" type="submit" name="_next" class="button button-block button-rounded button-white button-large"><i class="fa fa-paper-plane-o"></i> SEND</button>
 					</form>
 				</div>
 			</div>
 		</div>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-		<script src="./res/js/contact.js"></script>
+		<script>
+			$(document).ready(function() {
+				var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+				$( ":button" ).click(function() {
+					$( "#formy" ).slideUp(100);
+					if ($( ".pure-input-1" )[0].value && re.test($( ".pure-input-1" )[1]) && $( ".pure-input-1" )[2].value) {
+						$(this).text(" SENT").addClass("disabled");
+
+
+					}
+					//https://formden.com/blog/validate-contact-form-jquery
+
+				});
+			});
+		</script>
 	</body>
 </html>
