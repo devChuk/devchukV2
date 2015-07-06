@@ -1,0 +1,80 @@
+---
+title: Blog
+---
+
+
+<!--
+Title:      BrianCh.uk Home Screen v1
+Author:     Brian Chuk (brianch.uk)
+Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
+-->
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#E67E22">
+    <title>Blog | Brian Chuk</title>
+
+    <link rel="stylesheet" href="../res/css/index.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    
+    <div id="subintro1">
+      <div id="subspacer"></div>
+      <div id="intro-large">WORK IN PROGRESS</div><br>
+    </div>
+    <div id="info-wrapper-wrapper">
+      <div id="info-wrapper">
+            <div class="posts">
+              {% for post in paginator.posts %}
+              <div class="post">
+                <span style="color:#de3230;font-weight:bold" class="post-title">
+                  <a href="{{ post.url }}">
+                    {{ post.title }}
+                  </a>
+                </span>
+
+                <small style="float:right" class="post-date">{{ post.date | date_to_long_string }}</small>
+
+                {{ post.content }}
+                <br>
+                <hr>
+              </div>
+              {% endfor %}
+            </div>
+            <center>
+            <div class="pagination">
+              {% if paginator.next_page %}
+                <a class="pagination-item older button button-border-caution button-large" href="{{ site.baseurl }}blog/page{{paginator.next_page}}">Older</a>
+              {% else %}
+                <span class="pagination-item older button button-border-caution button-large disabled">Older</span>
+              {% endif %}
+              {% if paginator.previous_page %}
+                {% if paginator.page == 2 %}
+                  <a class="pagination-item newer button button-border-caution button-large" href="{{ site.baseurl }}blog">Newer</a>
+                {% else %}
+                  <a class="pagination-item newer button button-border-caution button-large" href="{{ site.baseurl }}blog/page{{paginator.previous_page}}">Newer</a>
+                {% endif %}
+              {% else %}
+                <span class="pagination-item newer button button-border-caution button-large disabled">Newer</span>
+              {% endif %}
+            </div>
+            </center>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  $('#older').click(function(e) {
+        e.preventDefault(); e.stopPropagation();
+        window.location.href = $(e.currentTarget).data().href;
+    });
+</script>

@@ -37,6 +37,8 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 				
 					<form class="pure-form" style="color:black" method="POST" action="http://formspree.io/devchuk@gmail.com">
 						<div id="formy">
+							<input type="hidden" name="_subject" value="Message to Brian Chuk" />
+							<input type="text" name="_gotcha" style="display:none" />
 							<div class="to100">
 							    <fieldset class="pure-group">
 							        <input name="Name" type="text" class="pure-input-1" placeholder="Name" required>
@@ -60,12 +62,7 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 					$(":button").text(" SENT").addClass("disabled");
 					$( ".main-text" ).text("Thanks for the message! A reply will come shortly.");
 					$( "#formy" ).slideUp(100);
-					
 				}
-
-
-
-
 				var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 				$( ":button" ).click(function() {
 					if ($( ".pure-input-1" )[0].value && re.test($( ".pure-input-1" )[1]) && $( ".pure-input-1" )[2].value) {
