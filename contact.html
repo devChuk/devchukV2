@@ -47,7 +47,7 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 						        <textarea name="Message" class="pure-input-1" style="resize: vertical"rows="20" placeholder="Message" required></textarea>
 						    </fieldset>
 					   </div>
-					    <button style="width:100%" type="submit" name="_next" value="" class="button button-block button-rounded button-white button-large"><i class="fa fa-paper-plane-o"></i> SEND</button>
+					    <button style="width:100%" type="submit" name="_next" value="http://devchuk.github.io/devchuk2/contact.html#sent" class="button button-block button-rounded button-white button-large"><i class="fa fa-paper-plane-o"></i> SEND</button>
 					</form>
 				</div>
 			</div>
@@ -56,6 +56,15 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 		<script>
 			$(document).ready(function() {
+				if (window.location.href.indexOf("sent") > -1) {
+					$(this).text(" SENT").addClass("disabled");
+					$( ".main-text" ).text("Thanks for the message! A reply will come shortly.");
+					
+				}
+
+
+
+
 				var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 				$( ":button" ).click(function() {
 					if ($( ".pure-input-1" )[0].value && re.test($( ".pure-input-1" )[1]) && $( ".pure-input-1" )[2].value) {
