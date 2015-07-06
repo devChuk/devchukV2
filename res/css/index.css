@@ -217,6 +217,7 @@ a {color: #ECF0F1;}
 	}
 	#pages-wrapper {height:25vh; width: 100vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
+	.to100 {width: 50%;}
 } /* CLOSE WIDE LAYOUT */
 
 /* TABLET LAYOUT 
@@ -238,7 +239,7 @@ a {color: #ECF0F1;}
 		padding-left: 20px
 		overflow:hidden;
 	}
-	
+	.to100 {width: 50%;}
 	.picture {
 		width:364px;
 	}
@@ -252,6 +253,7 @@ a {color: #ECF0F1;}
 	.profile-spacer, .profile {display: none;}
 	.revprofile-spacer {height: 3vh;}
 	.mobileC {padding: 3vw;}
+	.to100 {width: 100%;}
 
 } /* CLOSE WIDE MOBILE LAYOUT
 
@@ -267,4 +269,5 @@ a {color: #ECF0F1;}
 	#info-wrapper em {line-height: 3em;	font-size: 1em;}
 	.eCustom {display: block; width: 100%}
 	.mobileC {padding: 3vw;}
+	.to100 {width: 100%;}
 } /* CLOSE MOBILE LAYOUT */
