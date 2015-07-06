@@ -57,8 +57,9 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 		<script>
 			$(document).ready(function() {
 				if (window.location.href.indexOf("sent") > -1) {
-					$(this).text(" SENT").addClass("disabled");
+					$(":button").text(" SENT").addClass("disabled");
 					$( ".main-text" ).text("Thanks for the message! A reply will come shortly.");
+					$( "#formy" ).slideUp(100);
 					
 				}
 
