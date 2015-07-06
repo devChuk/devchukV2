@@ -251,6 +251,7 @@ a {color: #ECF0F1;}
 	#text, .profileV {padding: 3vw;}
 	.profile-spacer, .profile {display: none;}
 	.revprofile-spacer {height: 3vh;}
+	.mobileC {padding: 3vw;}
 
 } /* CLOSE WIDE MOBILE LAYOUT
 
@@ -265,4 +266,5 @@ a {color: #ECF0F1;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vmin;}
 	#info-wrapper em {line-height: 3em;	font-size: 1em;}
 	.eCustom {display: block; width: 100%}
+	.mobileC {padding: 3vw;}
 } /* CLOSE MOBILE LAYOUT */
