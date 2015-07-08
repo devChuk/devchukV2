@@ -1,0 +1,51 @@
+---
+title: Blog
+---
+
+
+<!--
+Title:      BrianCh.uk Home Screen v1
+Author:     Brian Chuk (brianch.uk)
+Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
+-->
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#E67E22">
+    <title>Blog | Brian Chuk</title>
+
+    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/posts.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    
+    <div id="subintro1">
+      <div id="subspacer"></div>
+      <div id="intro-large">BLOG</div><br>
+    </div>
+    <div id="info-wrapper-wrapper">
+      <div id="info-wrapper" >
+            <div class="posts">
+			  <span style="color:#de3230;font-weight:bold">{{ page.title }}</span>
+			  <small style="float:right" class="post-date">{{ page.date | date_to_string }}</small>
+			  {{ content }}
+            </div>
+            </center>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  $('#older').click(function(e) {
+        e.preventDefault(); e.stopPropagation();
+        window.location.href = $(e.currentTarget).data().href;
+    });
+</script><!---->

@@ -23,7 +23,7 @@ author:
   name:           'Brian Chuk'
   url:            https://twitter.com/devchuk
 
-paginate: 5
+paginate: 1
 paginate_path: "blog/page:num"
 excerpt_separator: <!---excerpt-->
 
