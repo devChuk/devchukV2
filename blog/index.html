@@ -20,7 +20,7 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
     <meta name="theme-color" content="#E67E22">
     <title>Blog | Brian Chuk</title>
 
-    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/posts.css">
+    <link rel="stylesheet" href="../../res/css/posts.css">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   </head>
@@ -35,13 +35,13 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
             <div class="posts">
               {% for post in paginator.posts %}
               <div class="post">
-                <span style="color:#de3230;font-weight:bold" class="post-title">
+                <span class="post-title">
                   <a href="{{ post.url }}">
                     {{ post.title }}
                   </a>
                 </span>
 
-                <small style="float:right" class="post-date">{{ post.date | date_to_long_string }}</small>
+                <small class="post-date">{{ post.date | date_to_long_string }}</small>
 
                 {{ post.content }}
                 <br>
