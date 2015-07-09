@@ -96,6 +96,14 @@ a:hover, a:active { outline: none; }
 
 html {overflow-x: hidden; font-family: 'Lato'; color: black; background-color: #ECF0F1;}
 body { margin: 0; z-index: 1;position: relative;}
+p, a, li {line-height: 1.5; font-size: 22px;}
+a {color: #E67E22; text-decoration: none}
+h1 {font-size: 40px;}
+h2 {font-size: 35px;}
+h3 {font-size: 30px;}
+h4 {font-size: 25px;}
+h5 {font-size: 20px;}
+h6 {font-size: 15px;}
 
 /* ----- SELECTION COLORS ----- */
 /* ----- LINKS ----- */
@@ -137,7 +145,7 @@ body { margin: 0; z-index: 1;position: relative;}
 /* Introduction Information */
 
 #info-wrapper-wrapper {background-color: #ECF0F1}
-#info-wrapper {margin: 0 auto; overflow: hidden;}
+#info-wrapper {margin: 0 auto; overflow: hidden; padding-top: 3vh}
 .main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
 #sub-text {	padding-bottom: 3vh;}
 /*.caption {text-align: center;}*/
@@ -168,12 +176,21 @@ body { margin: 0; z-index: 1;position: relative;}
 	line-height: 25vw;
 }
 
+/* Content */
+.post-date {
+	float: right;
+	line-height: 1.5;
+}
+.post-title a{
+	font-size: 30px;
+}
+
 #blog, #subintro1 {background-color: #E67E22;}
 
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
-	#info-wrapper { width: 768px; }
+	#info-wrapper { width: 700px; }
 	#text {
 		width:450px;
 		float: left;
@@ -199,7 +216,7 @@ body { margin: 0; z-index: 1;position: relative;}
 ----------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#intro {background-color: #0D47A1;}
-	#info-wrapper {width: 768px;}
+	#info-wrapper {width: 700px;}
 	#text {
 		width:384px;
 		float: left;
