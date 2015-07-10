@@ -16,10 +16,10 @@ ECF0F1
  RESET STYLES
 ----------------------------------------------- */
 
-html, body, div, span, object, iframe,
+/*html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
@@ -34,7 +34,7 @@ time, mark, audio, video {
 	background: transparent;
 	border: 0;
 	outline: 0;
-}
+}*/
 
 /* HTML5 RESETS FOR OLDER BROWSERS */
 article, aside, figure, figure img, hgroup, footer, header, nav, section {
@@ -97,6 +97,8 @@ a:hover, a:active { outline: none; }
 html {overflow-x: hidden; font-family: 'Lato'; color: black; background-color: #ECF0F1;}
 body { margin: 0; z-index: 1;position: relative;}
 p, a, li {line-height: 1.5; font-size: 20px;}
+ul(display:	)
+li {display: list-item;}
 a {color: #E67E22; text-decoration: none}
 h1 {font-size: 40px;}
 h2 {font-size: 35px;}
@@ -185,10 +187,9 @@ h6 {font-size: 15px;}
 .post-title a{
 	font-size: 30px;
 	font-weight: 700;
-	padding-bottom: 30vh;
 }
-.content {
-	padding-top: 3vh;
+img {
+    box-shadow: 10px 10px 5px #888888;
 }
 
 #blog, #subintro1 {background-color: #E67E22;}

@@ -20,9 +20,13 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
     <meta name="theme-color" content="#E67E22">
     <title>Blog | Brian Chuk</title>
 
-    <link rel="stylesheet" href="../res/css/posts.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/chromestylesheet.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/posts.css">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/buttons.css">
   </head>
   <body>
     
@@ -53,18 +57,18 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
             <center>
             <div class="pagination">
               {% if paginator.next_page %}
-                <a class="pagination-item older button button-border-caution button-large" href="{{ site.baseurl }}blog/page{{paginator.next_page}}">Older</a>
+                <a class="button button-rounded button-blog" href="{{ site.baseurl }}blog/page{{paginator.next_page}}"><i class="fa fa-arrow-left"></i></a>
               {% else %}
-                <span class="pagination-item older button button-border-caution button-large disabled">Older</span>
+                <span class="button button-rounded button-blog disabled"><i class="fa fa-arrow-left"></i></span>
               {% endif %}
               {% if paginator.previous_page %}
                 {% if paginator.page == 2 %}
-                  <a class="pagination-item newer button button-border-caution button-large" href="{{ site.baseurl }}blog">Newer</a>
+                  <a class="button button-rounded button-blog" href="{{ site.baseurl }}blog"><i class="fa fa-arrow-right"></i></a>
                 {% else %}
-                  <a class="pagination-item newer button button-border-caution button-large" href="{{ site.baseurl }}blog/page{{paginator.previous_page}}">Newer</a>
+                  <a class="button button-rounded button-blog" href="{{ site.baseurl }}blog/page{{paginator.previous_page}}"><i class="fa fa-arrow-right"></i></a>
                 {% endif %}
               {% else %}
-                <span class="pagination-item newer button button-border-caution button-large disabled">Newer</span>
+                <span class="button button-rounded button-blog disabled"><i class="fa fa-arrow-right"></i></span>
               {% endif %}
             </div>
             </center>
