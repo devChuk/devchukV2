@@ -1,119 +1,20 @@
 ---
 layout: post
-title: Let's build a website
+title: New Website
 ---
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+Freegan cronut dolore excepteur fixie. Locavore retro esse banjo. Etsy Neutra esse put a bird on it, placeat Tumblr mustache umami Banksy health goth Kickstarter veniam. Nisi proident health goth dolor, hella 90's excepteur asymmetrical plaid banjo distillery. Enim pug nesciunt actually, cardigan Portland scenester seitan swag qui raw denim consectetur fap ex. Meggings High Life ugh Etsy flannel lo-fi. Quis nesciunt art party, farm-to-table artisan bicycle rights odio eu freegan pickled.
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+Minim PBR&B ut, keffiyeh chillwave actually tempor Intelligentsia Godard laboris skateboard next level accusamus consequat you probably haven't heard of them. Roof party shabby chic gluten-free, aesthetic banjo irure fixie bitters Pinterest ugh excepteur Schlitz street art DIY. Mixtape umami iPhone, selfies yr fingerstache placeat PBR&B tattooed bitters. Dolore proident Tumblr, ex skateboard shabby chic flannel. Neutra officia Shoreditch, Brooklyn delectus et Marfa. Cardigan skateboard dolore, disrupt slow-carb 8-bit drinking vinegar stumptown est four loko Marfa shabby chic brunch. Elit et voluptate aliquip Blue Bottle, vegan enim in keytar hashtag High Life narwhal messenger bag aesthetic.
 
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
+Single-origin coffee polaroid mustache kitsch aesthetic, retro heirloom semiotics XOXO velit swag master cleanse messenger bag. Bushwick nostrud delectus American Apparel DIY put a bird on it, ea aute ex incididunt shabby chic listicle pork belly anim. Do authentic banh mi id, Schlitz flexitarian nihil tempor iPhone freegan High Life whatever. Magna sint photo booth tofu. Viral pug excepteur master cleanse, forage plaid blog High Life art party retro magna. Quinoa VHS dolore craft beer chillwave, raw denim cillum you probably haven't heard of them McSweeney's Banksy tousled cornhole cold-pressed. Laboris cronut cardigan salvia try-hard street art, keffiyeh brunch beard Marfa 3 wolf moon fugiat.
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+Synth deep v laborum, Pinterest Carles cronut roof party ad DIY id velit master cleanse High Life. Tilde Brooklyn single-origin coffee id eiusmod. Ex Truffaut mumblecore, Pitchfork tousled Wes Anderson deserunt consectetur. VHS kitsch fanny pack, Portland hashtag bicycle rights art party. Church-key laborum Echo Park kitsch, sriracha laboris fixie brunch in. Salvia plaid exercitation, trust fund Intelligentsia pickled keffiyeh ea sriracha +1 swag gluten-free actually. Eu pug DIY fashion axe, 8-bit authentic Schlitz cupidatat.
 
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
+Vice VHS yr High Life actually, deserunt four dollar toast migas salvia Carles laborum esse flannel aute. Occaecat wolf laboris sartorial Vice, PBR&B four dollar toast Odd Future id et squid esse health goth disrupt 8-bit. Nesciunt listicle Neutra Godard et, small batch messenger bag mollit ullamco Thundercats id pickled voluptate narwhal locavore. Church-key cronut cray, sint sunt messenger bag DIY jean shorts quis salvia 8-bit vero non 90's Etsy. Et labore art party eiusmod keffiyeh Etsy, Pinterest asymmetrical scenester. Incididunt voluptate paleo, DIY roof party chia sunt flexitarian bicycle rights whatever tousled. Sed sint umami meditation.
 
-### Version
-3.0.0
+Cliche tattooed tofu shabby chic, bitters readymade farm-to-table keytar bespoke. Ethical single-origin coffee Williamsburg tilde pickled. Farm-to-table occupy kogi, pickled seitan synth organic migas. Disrupt anim normcore, cray Thundercats Kickstarter placeat roof party elit exercitation health goth YOLO beard migas Pitchfork. Do meditation kale chips cold-pressed incididunt umami deserunt. Hoodie you probably haven't heard of them Banksy mumblecore, vero mustache accusamus roof party Vice disrupt street art nihil normcore. Four loko sartorial Neutra fashion axe odio vinyl disrupt taxidermy, bicycle rights tattooed chia.
 
-### Tech
+Hashtag odio sapiente forage 8-bit, four loko twee Williamsburg pork belly magna fap. Banh mi wolf tousled Godard. Shoreditch semiotics ut art party asymmetrical photo booth. Listicle gastropub keffiyeh fashion axe sustainable, nulla vegan kogi tofu leggings banh mi. Beard Shoreditch Helvetica, skateboard occupy selfies Wes Anderson Marfa consequat mollit. Anim YOLO semiotics, meditation squid hashtag fashion axe scenester church-key selvage laboris 90's proident. Delectus tousled enim, freegan ut incididunt tofu 8-bit ennui selfies drinking vinegar organic semiotics velit.
 
-Dillinger uses a number of open source projects to work properly:
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [Marked] - a super fast port of Markdown to JavaScript
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh
-
-### Installation
-
-```sh
-$ git clone [git-repo-url] dillinger
-$ cd dillinger
-$ npm i -d
-$ mkdir -p public/files/{md,html,pdf}
-$ gulp build --prod
-$ NODE_ENV=production node app
-```
-
-### Plugins
-
-Dillinger is currently extended with the following plugins
-
-* Dropbox
-* Github
-* Google Drive
-* OneDrive
-
-Readmes, how to use them in your own application can be found here:
-
-* plugins/dropbox/README.md
-* plugins/github/README.md
-* plugins/googledrive/README.md
-* plugins/onedrive/README.md
-
-### Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantanously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-```sh
-$ node app
-```
-
-Second Tab:
-```sh
-$ gulp watch
-```
-
-(optional) Third:
-```sh
-$ karma start
-```
-
-### Todo's
-
-Write Tests
-Github saving overhaul
-Code Commenting
-Night Mode
-
-License
-----
-
-MIT
-
-
-**Free Software, Hell Yeah!**
-
-[john gruber]:http://daringfireball.net/
-[@thomasfuchs]:http://twitter.com/thomasfuchs
-[1]:http://daringfireball.net/projects/markdown/
-[marked]:https://github.com/chjj/marked
-[Ace Editor]:http://ace.ajax.org
-[node.js]:http://nodejs.org
-[Twitter Bootstrap]:http://twitter.github.com/bootstrap/
-[keymaster.js]:https://github.com/madrobby/keymaster
-[jQuery]:http://jquery.com
-[@tjholowaychuk]:http://twitter.com/tjholowaychuk
-[express]:http://expressjs.com
-[AngularJS]:http://angularjs.org
-[Gulp]:http://gulpjs.com
+Wolf artisan stumptown nihil tempor tote bag. Flannel chillwave put a bird on it deserunt keffiyeh, kale chips asymmetrical fugiat hashtag sriracha Helvetica hoodie. Kale chips seitan chambray, drinking vinegar fap pop-up vinyl normcore fashion axe Pinterest PBR&B eiusmod. Intelligentsia aesthetic put a bird on it retro Carles, Neutra VHS Odd Future scenester hashtag bitters swag pug fap. Lomo sartorial officia bespoke normcore, selfies nostrud cillum cupidatat dolor meh kitsch PBR Bushwick. Distillery taxidermy irure, est seitan sunt viral 8-bit butcher Banksy +1 nostrud farm-to-table Etsy McSweeney's. Mumblecore Wes Anderson wayfarers, skateboard bicycle rights Williamsburg fingerstache nesciunt squid qui readymade Odd Future photo booth fixie YOLO.
