@@ -96,7 +96,7 @@ a:hover, a:active { outline: none; }
 
 html {overflow-x: hidden; font-family: 'Lato'; color: black; background-color: #ECF0F1;}
 body { margin: 0; z-index: 1;position: relative;}
-p, a, li {line-height: 1.5; font-size: 22px;}
+p, a, li {line-height: 1.5; font-size: 20px;}
 a {color: #E67E22; text-decoration: none}
 h1 {font-size: 40px;}
 h2 {font-size: 35px;}
@@ -180,9 +180,15 @@ h6 {font-size: 15px;}
 .post-date {
 	float: right;
 	line-height: 1.5;
+	padding-top: 8px;
 }
 .post-title a{
 	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 30vh;
+}
+.content {
+	padding-top: 3vh;
 }
 
 #blog, #subintro1 {background-color: #E67E22;}
