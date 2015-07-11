@@ -258,6 +258,9 @@ img {
 		padding-left: 2vw;
 		padding-right: 2vw;
 	}
+	img {
+		width: 100%;
+	}
 } /* CLOSE WIDE MOBILE LAYOUT
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
@@ -276,5 +279,8 @@ img {
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
+	}
+	img {
+		width: 100%;
 	}
 } /* CLOSE MOBILE LAYOUT */
