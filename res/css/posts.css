@@ -260,6 +260,7 @@ img {
 	}
 	img {
 		width: 100%;
+		box-shadow: none;
 	}
 } /* CLOSE WIDE MOBILE LAYOUT
 
@@ -282,5 +283,6 @@ img {
 	}
 	img {
 		width: 100%;
+		box-shadow: none;
 	}
 } /* CLOSE MOBILE LAYOUT */

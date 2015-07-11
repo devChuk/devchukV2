@@ -3,7 +3,7 @@ layout: post
 title: MHacks IV & College
 ---
 
-<center><img src="http://devchuk.github.io/res/img/posts/mhacks.jpeg" alt="MHacks" height="338" width="450"></center>
+<center><img src="http://devchuk.github.io/res/img/posts/mhacks.jpeg" alt="MHacks" width="450"></center>
 
 I haven't really thought about the use of this blog ever since I programmed it. It was more of an excuse to learn how to use [Jekyll](http://jekyllrb.com/) to be honest. But now, it seems to be a good idea to have a semi-private place on the web where I can put my thoughts in and maybe revisit after some time later.
 
@@ -13,7 +13,7 @@ I've spent months and months reading some brilliant [essays](http://paulgraham.c
 
 [MHacks IV](http://mhacks.org/) was probably the best hackathon I've been to so far. The events and camaraderie made it feel more like a weekend vacation instead of what I thought was a serious hackathon, and I've met a lot of friendly and inspirational people there. For instance, it turns out that one of the New Yorkers who attended MHacks IV with me is [Dani Grant](http://www.thedanigrant.com/)&#8212;the person behind [HACKERS OF NY](http://hackersofny.com/). What made this such a crazy coincidence was that when I made [stuyscioly.github.io](http://stuyscioly.github.io/), I had no idea how to code with HTML, CSS, and JS so I saved Hackers of NY's HTML code and added my own twist to create Stuyvesant Science Olympiad's page. Never would I have thought that I'd meet the person who made the website I was ripping off of. Anyways, I told her the entire story behind Stuyvesant Science Olympiad's website and thanked her for Hackers of NY, because if it weren't for that website, I would not have learned how to code in HTML. She laughed, saying "that just made my day."
 
-<center><img src="http://devchuk.github.io/res/img/posts/rainymich.jpg" alt="rain"><br>
+<center><img src="http://devchuk.github.io/res/img/posts/rainymich.jpg" alt="rain" width="640"><br>
 <small><i>It rains often here.</i></small></center>
 
 What made my weekend at University of Michigan so amazing probably wasn't the hackathon, but the campus itself. Thanks to my good friend Patrick, we did more than what I imagined that I could do during my time there. We played pool with other UMichigan students, played tennis after 2 AM, ate at the brand-new South Quad dining hall, saw a freaking pair of freaking deer casually walking around on the campus at nighttime. He showed me around the lush-green 3,245-acre campus as we rode in the free buses, pointing at all the buildings and their uses. "You can study anything here," he said. What was most interesting was that I rarely saw a single adult who was older than a college senior on campus. The people who worked in the dining halls were all students&#8212;even the bus drivers there were college students as well.
