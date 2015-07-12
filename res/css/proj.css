@@ -226,7 +226,7 @@ h6 {font-size: 15px;}
 
 /* TABLET LAYOUT 
 ----------------------------------------------- */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 710px) and (max-width: 991px) {
 	#intro {background-color: #0D47A1;}
 	#info-wrapper {width: 700px;}
 	#text {
@@ -251,7 +251,7 @@ h6 {font-size: 15px;}
 
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
 ----------------------------------------------- */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 710px) {
 	#intro {background-color: #0D47A1;}
 	#text, .profileV {padding: 3vw;}
 	.profile-spacer, .profile {display: none;}
@@ -262,6 +262,7 @@ h6 {font-size: 15px;}
 		padding-left: 2vw;
 		padding-right: 2vw;
 	}
+	.buttons {display: none;}
 	/*img {
 		width: 100%;
 		box-shadow: none;
@@ -285,6 +286,8 @@ h6 {font-size: 15px;}
 		padding-left: 2vw;
 		padding-right: 2vw;
 	}
+
+	.buttons {display: none;}
 	/*img {
 		width: 100%;
 		box-shadow: none;

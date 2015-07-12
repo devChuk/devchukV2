@@ -30,17 +30,33 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 			<div id="intro-large">PROJECTS</div><br>
 		</div>
 		<div id="info-wrapper-wrapper">
-			<div id="info-wrapper">
-				<div id="button-container">
-					<div id="buttons">
-						<button class="button button-rounded button-white button-large">ALL</button>
-						<button class="button button-rounded button-white button-large">SOFTWARE</button>
-						<button class="button button-rounded button-white button-large">HARDWARE</button>
-						<button class="button button-rounded button-white button-large">MISC</button>
-					</div>
+			<div id="info-wrapper" class="buttons" style="text-align:center;width:710px">
+				<div class="buttons">
+					<button style="width:175px" class="button button-rounded button-white button-large">ALL</button>
+					<button style="width:175px" class="button button-rounded button-white button-large">SOFTWARE</button>
+					<button style="width:175px" class="button button-rounded button-white button-large">HARDWARE</button>
+					<button style="width:175px" class="button button-rounded button-white button-large">MISC</button>
 				</div>
 			</div>
+			<div id="info-wrapper">
+				<div id="button-container">
+					
+				</div>
+			</div>
+			<span class="button-dropdown" data-buttons="dropdown">
+				<a href="#" class="button button-rounded button-large"> All <i class="fa fa-caret-down"></i></a>
+
+				<ul style="display: none;">
+					<li><a href="#">All</a></li>
+					<li class="button-dropdown-divider"><a href="#">Software</a></li>
+					<li><a href="#">Hardware</a></li>
+					<li><a href="#">Miscellaneous</a></li>
+					
+				</ul>
+				<div style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 999; display: none;"></div>
+			</span>
 		</div>
+		<script type="text/javascript" src="../../res/js/buttons.js"></script>
 	</body>
 </html>
 
