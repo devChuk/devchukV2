@@ -9,7 +9,7 @@ permalink: /blog/:year/:month/:day/:title/
 
 # Portfolio Setup
 collections:
-  portfolio:
+  projects:
     output: true
 
 # Setup

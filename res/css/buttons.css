@@ -550,7 +550,7 @@ input.button-tiny, button.button-tiny {
 .button-dropdown {
   position: relative;
   overflow: visible;
-  display: inline-block; }
+  /*display: inline-block;*/ }
   /* line 475, ../scss/partials/_buttons.scss */
   .button-dropdown .button .icon-caret-down {
     font-size: 90%;

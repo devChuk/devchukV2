@@ -1,3 +1,6 @@
+---
+Title: Brian Chuk | Projects
+---
 <!--
 Title:			BrianCh.uk Home Screen v1
 Author:			Brian Chuk (brianch.uk)
@@ -31,30 +34,54 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 		</div>
 		<div id="info-wrapper-wrapper">
 			<div id="info-wrapper" class="buttons" style="text-align:center;width:710px">
-				<div class="buttons">
+				<div id="buttons" class="buttons">
 					<button style="width:175px" class="button button-rounded button-white button-large">ALL</button>
 					<button style="width:175px" class="button button-rounded button-white button-large">SOFTWARE</button>
 					<button style="width:175px" class="button button-rounded button-white button-large">HARDWARE</button>
 					<button style="width:175px" class="button button-rounded button-white button-large">MISC</button>
 				</div>
 			</div>
-			<div id="info-wrapper">
+			<div id="info-wrapper" style="">
 				<div id="button-container">
-					
+					<span class="button-dropdown" data-buttons="dropdown">
+						<a class="button button-rounded button-large"> All <i class="fa fa-caret-down"></i></a>
+
+						<ul style="display: none;">
+							<li><a href="#">All</a></li>
+							<li class="button-dropdown-divider"><a href="#">Software</a></li>
+							<li><a href="#">Hardware</a></li>
+							<li><a href="#">Miscellaneous</a></li>
+						</ul>
+						<div style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 999; display: none;"></div>
+					</span>	
 				</div>
 			</div>
-			<span class="button-dropdown" data-buttons="dropdown">
-				<a href="#" class="button button-rounded button-large"> All <i class="fa fa-caret-down"></i></a>
+			<div id="info-wrapper" style="padding-top:0">
+				{% for proj in site.projects %}
+                	<li>
+				        <a href="{{ proj.url }}">
+				          <span data-picture data-alt="">
+				            <span data-src=""></span>
+				          </span>
+				         <span class="label">{{ proj.title }}</span>
+				        </a>
+			      </li>
+                {% endfor %}
+                <!--
 
-				<ul style="display: none;">
-					<li><a href="#">All</a></li>
-					<li class="button-dropdown-divider"><a href="#">Software</a></li>
-					<li><a href="#">Hardware</a></li>
-					<li><a href="#">Miscellaneous</a></li>
-					
-				</ul>
-				<div style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 999; display: none;"></div>
-			</span>
+				<li class="{{ proj.cat }}" data-myorder="{{ proj.order }}" name="{{ proj.id }}">
+                      <figure>
+                          <a href="{{ proj.url }}"><img src="{{ proj.img }}"></a>
+                          <figcaption>
+                              <h3>{{ proj.title }}</h3>
+                              <span>{{ proj.date }}</span>
+                              <a href="{{ proj.url }}">Take a look</a>
+                          </figcaption>
+                      </figure>
+                  </li>
+
+	            -->
+			</div>
 		</div>
 		<script type="text/javascript" src="../../res/js/buttons.js"></script>
 	</body>
@@ -63,4 +90,6 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 <!--http://www.apesin.space/
 
 https://docs.google.com/spreadsheets/d/1BqMRzahnjYdBQFswieO_3Oukz_a5iIKCQ41G0nXquD8/edit#gid=0
+
+
 -->

@@ -195,9 +195,8 @@ h6 {font-size: 15px;}
 /* Projects Elements */
 #buttons {display: inline-block;}
 #button-container {text-align: center; width: 100%;}
-
-
 #blog, #subintro2 {background-color: #2980B9;}
+.button-dropdown{display: none; padding-bottom: 80px;}
 
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
@@ -263,6 +262,7 @@ h6 {font-size: 15px;}
 		padding-right: 2vw;
 	}
 	.buttons {display: none;}
+	.button-dropdown{display: inline-block}
 	/*img {
 		width: 100%;
 		box-shadow: none;
@@ -288,6 +288,7 @@ h6 {font-size: 15px;}
 	}
 
 	.buttons {display: none;}
+	.button-dropdown{display: inline-block;}
 	/*img {
 		width: 100%;
 		box-shadow: none;
