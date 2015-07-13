@@ -1,11 +1,10 @@
 ---
 layout: project
 title: Wooden Crossbows
-id: hobb
-cat: mix category-3
-order: 1
+description: A silly project taken seriously
 date: Jan 2012 - Oct 2013
-img: ../res/img/portimg/crossbows/rsz_crossbow.jpg
+img: http://devchuk.github.io/res/img/portimg/crossbows/rsz_crossbow.jpg
+category: software
 ---
 
 <center>![Image not found](../../res/img/portimg/crossbows/crossbow.jpg)<br>

@@ -20,6 +20,7 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 
 		<link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/chromestylesheet.css">
 		<link rel="stylesheet" href="../../res/css/proj.css">
+		<link rel="stylesheet" href="../../res/css/item.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -57,16 +58,56 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 				</div>
 			</div>
 			<div id="info-wrapper" style="padding-top:0">
+                <div class="grid">
+				
 				{% for proj in site.projects %}
-                	<li>
-				        <a href="{{ proj.url }}">
-				          <span data-picture data-alt="">
-				            <span data-src=""></span>
-				          </span>
-				         <span class="label">{{ proj.title }}</span>
-				        </a>
-			      </li>
+                	<figure class="effect-romeo">
+						<img src="https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/portimg/crossbows/crossbow.jpg" alt="img17"/>
+						<figcaption>
+							<h2><span>{{ proj.title }}</span></h2>
+							<p>That's pretty dank yo</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
                 {% endfor %}
+                <!-- </div> -->
+
+
+                <!-- <div class="grid"> -->
+					<figure class="effect-romeo">
+						<img src="https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/portimg/crossbows/crossbow.jpg" alt="img17"/>
+						<figcaption>
+							<h2>AYYY <span>LMAO</span></h2>
+							<p>That's pretty dank yo</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-romeo">
+						<img src="http://tympanus.net/Development/HoverEffectIdeas/img/18.jpg" alt="img18"/>
+						<figcaption>
+							<h2>AYYY <span>LMAO</span></h2>
+							<p>That's pretty dank yo</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-romeo">
+						<img src="http://tympanus.net/Development/HoverEffectIdeas/img/17.jpg" alt="img17"/>
+						<figcaption>
+							<h2>AYYY <span>LMAO</span></h2>
+							<p>That's pretty dank yo</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-romeo">
+						<img src="http://tympanus.net/Development/HoverEffectIdeas/img/18.jpg" alt="img18"/>
+						<figcaption>
+							<h2>AYYY <span>LMAO</span></h2>
+							<p>That's pretty dank yo</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+
                 <!--
 
 				<li class="{{ proj.cat }}" data-myorder="{{ proj.order }}" name="{{ proj.id }}">
