@@ -168,6 +168,14 @@ h6 {font-size: 15px;}
 #blog, #subintro2 {background-color: #2980B9;}
 .button-dropdown{display: none; padding-bottom: 80px;}
 
+
+@media only screen and (min-width: 1440px) {
+	.grid {max-width: 1440px;}
+}
+@media only screen and (min-width: 960px) and (max-width: 1439px) {
+	.grid {max-width: 960px;}
+}
+
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */
 @media only screen and (min-width: 992px) {
