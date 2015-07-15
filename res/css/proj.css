@@ -182,7 +182,7 @@ h6 {font-size: 15px;}
 }
 @media only screen and (min-width: 750px) and (max-width: 959px) {
 	.grid {max-width: 750px;}
-	.grid figure {max-width: 355px;}
+	.grid figure {max-width: 375px;}
 	figcaption h2 {font-size: 3vw;}
 }
 @media only screen and (max-width: 750px) {
