@@ -5,7 +5,7 @@ highlighter:      pygments
 exclude: ['YEAR-MM-DD-example-content.md']
 
 # Permalinks
-permalink: devchuk2/blog/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 
 # Portfolio Setup
 collections:
@@ -17,7 +17,7 @@ title:            'Brian Chuk'
 tagline:          'A personal website'
 description:      'A personal website of Brian Chuk'
 url:              http://devchuk.github.io/devchuk2
-baseurl:          /devchuk2/
+baseurl:          http://devchuk.github.io/devchuk2
 
 author:
   name:           'Brian Chuk'
