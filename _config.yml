@@ -5,7 +5,7 @@ highlighter:      pygments
 exclude: ['YEAR-MM-DD-example-content.md']
 
 # Permalinks
-permalink: devchuk2/blog/:year/:month/:day/:title/
+permalink: blog/:year/:month/:day/:title/
 
 # Portfolio Setup
 collections:
