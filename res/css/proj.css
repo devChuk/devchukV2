@@ -181,8 +181,17 @@ h6 {font-size: 15px;}
 		onmousedown="return false;
 	}
 }
-@media only screen and (max-width: 959px) {
-	.grid {max-width: 100vw;} /*mobile*/
+@media only screen and (min-width: 710px) and (max-width: 959px) {
+	.grid {max-width: 710px;}
+	.grid figure {max-width: 355px;}
+	figcaption h2 {font-size: 3vw;}
+}
+@media only screen and (max-width: 710px) {
+	.grid figure {
+		max-width: 100%;
+		max-height: 200px;
+	}
+	figcaption p {display: none;}
 }
 
 /* WIDE DESKTOP LAYOUT 

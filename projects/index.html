@@ -19,8 +19,8 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 		<title>Projects | Brian Chuk</title>
 
 		<link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/chromestylesheet.css">
-		<link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/proj.css">
 		<link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/item.css">
+		<link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/proj.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -42,21 +42,6 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 					<button style="width:175px" class="button button-rounded button-white button-large">MISC</button>
 				</div>
 			</div>
-			<div id="info-wrapper" style="">
-				<div id="button-container">
-					<span class="button-dropdown" data-buttons="dropdown">
-						<a class="button button-rounded button-large"> All <i class="fa fa-caret-down"></i></a>
-
-						<ul style="display: none;">
-							<li><a href="#">All</a></li>
-							<li class="button-dropdown-divider"><a href="#">Software</a></li>
-							<li><a href="#">Hardware</a></li>
-							<li><a href="#">Miscellaneous</a></li>
-						</ul>
-						<div style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 999; display: none;"></div>
-					</span>	
-				</div>
-			</div>
 			<div id="info-wrapper" style="padding-top:0">
                 <div class="grid">
 				
@@ -65,15 +50,10 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 						<img src="https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/portimg/crossbows/crossbow.jpg" alt="img17"/>
 						<figcaption>
 							<h2><span>{{ proj.title }}</span></h2>
-							<p>That's pretty dank yo</p>
+							<p>{{ proj.description }}</p>
 							<a href="#">View more</a>
 						</figcaption>			
 					</figure>
-                {% endfor %}
-                <!-- </div> -->
-
-
-                <!-- <div class="grid"> -->
 					<figure class="effect-romeo">
 						<img src="https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/portimg/crossbows/crossbow.jpg" alt="img17"/>
 						<figcaption>
@@ -106,6 +86,12 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 							<a href="#">View more</a>
 						</figcaption>			
 					</figure>
+                {% endfor %}
+                
+
+
+                
+					
 				</div>
 
                 <!--
@@ -124,7 +110,6 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 	            -->
 			</div>
 		</div>
-		<script type="text/javascript" src="http://devchuk.github.io/devchuk2/res/js/buttons.js"></script>
 	</body>
 </html>
 
