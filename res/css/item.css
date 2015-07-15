@@ -288,6 +288,9 @@ figure.effect-romeo img {
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,0,300px);
 	transform: translate3d(0,0,300px);
+	opacity: 0.6;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }
 
 figure.effect-romeo:hover img {
@@ -296,7 +299,7 @@ figure.effect-romeo:hover img {
 	transform: translate3d(0,0,0);
 }
 
-@media only screen and (min-width: 710px) {
+@media only screen and (min-width: 751px) {
 	figure.effect-romeo figcaption::before,
 	figure.effect-romeo figcaption::after {
 		position: absolute;
@@ -345,7 +348,7 @@ figure.effect-romeo:hover img {
 		transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 	}
 
-	figure.effect-romeo:hover h2 {
+	/*figure.effect-romeo:hover h2 {
 		-webkit-transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
 		transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
 	}
@@ -353,5 +356,5 @@ figure.effect-romeo:hover img {
 	figure.effect-romeo:hover p {
 		-webkit-transform: translate3d(0,-50%,0) translate3d(0,100%,0);
 		transform: translate3d(0,-50%,0) translate3d(0,100%,0);
-	}
+	}*/
 }

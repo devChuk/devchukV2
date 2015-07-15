@@ -99,7 +99,7 @@ body { margin: 0; z-index: 1;position: relative;}
 p, a, li {line-height: 1.5; font-size: 20px;}
 ul(display:	)
 li {display: list-item;}
-a {color: #E67E22; text-decoration: none}
+a {color: #D35400; text-decoration: none}
 h1 {font-size: 40px;}
 h2 {font-size: 35px;}
 h3 {font-size: 30px;}
@@ -193,7 +193,7 @@ img {
 }
 
 
-#blog, #subintro1 {background-color: #E67E22;}
+#blog, #subintro1 {background-color: #D35400;}
 
 /* WIDE DESKTOP LAYOUT 
 ----------------------------------------------- */

@@ -115,7 +115,7 @@ a {color: #ECF0F1;}
 	font-family: 'BIG JOHN';
 }
 #intro-small, #subintro, #subintro1, #subintro2, #subintro3 {font-family: 'Keep Calm'}
-#intro {height:100vh;}
+#intro {height:100vh; background: rgba(10%, 10%, 10%, 0.65)}
 #intro:before, #intro:after, #subintro:before, #subintro:after, #subintro1:before, #subintro1:after, #subintro2:before, #subintro2:after, #subintro3:before, #subintro3:after {
     box-sizing: border-box;
     content: " ";
@@ -168,7 +168,7 @@ a {color: #ECF0F1;}
 	line-height: 25vw;
 }
 #about, #subintro {background-color: #E74C3C;}
-#blog, #subintro1 {background-color: #E67E22;}
+#blog, #subintro1 {background-color: #D35400;}
 #projects, #subintro2 {background-color: #2980B9;}
 #contact, #subintro3 {background-color: #3498DB;}
 
