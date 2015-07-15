@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Wooden Crossbows
+title: Crossbows
 description: A silly project taken seriously
 date: Jan 2012 - Oct 2013
 img: https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/portimg/crossbows/crossbow.jpg
