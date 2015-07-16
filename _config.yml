@@ -17,7 +17,7 @@ title:            'Brian Chuk'
 tagline:          'A personal website'
 description:      'A personal website of Brian Chuk'
 url:              http://devchuk.github.io/devchuk2
-baseurl:          http://devchuk.github.io/devchuk2
+baseurl:          
 
 author:
   name:           'Brian Chuk'
