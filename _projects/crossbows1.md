@@ -1,11 +1,11 @@
 ---
 layout: project
-title: Crossbows1
+title: Crossbows3
 description: A silly project taken seriously
 date: Jan 2012 - Oct 2013
 img: https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/portimg/crossbows/crossbow.jpg
 category: software
-order: 0
+order: 2
 ---
 
 <center>![Image not found](../../res/img/portimg/crossbows/crossbow.jpg)<br>
