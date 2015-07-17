@@ -1,0 +1,288 @@
+/*
+Title:			BrianCh.uk Blog Screen Styles v1
+Author:			Brian Chuk (brianch.uk)
+Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use it, just tell me :D)
+Framework:		Responsive layout based on Less Framework 4 (http://lessframework.com) by Joni Korpi
+
+https://color.adobe.com/Flat-UI-color-theme-2469224/
+
+2C3E50
+E74C3C
+ECF0F1
+3498DB
+2980B9
+
+
+ RESET STYLES
+----------------------------------------------- */
+
+/*html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%; page.title
+	font-weight: inherit;
+	font-style: normal;
+	vertical-align: baseline;
+	background: transparent;
+	border: 0;
+	outline: 0;
+}*/
+
+/* HTML5 RESETS FOR OLDER BROWSERS */
+article, aside, figure, figure img, hgroup, footer, header, nav, section {
+	display: block;
+}
+
+/*ol, ul { list-style: none; }*/
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input, select { vertical-align: middle; }
+a img { border: 0; }
+:focus { outline: 0; }
+a:hover, a:active { outline: none; }
+
+/* FONT IMPORTS
+----------------------------------------------- */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* BIG JOHN */
+@font-face {
+  font-family: 'BIG JOHN';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/BIGJOHN.otf);
+}
+/* slim joe */
+@font-face {
+  font-family: 'Slim Joe';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/SlimJoe.otf);
+}
+/* keep calm */
+@font-face {
+  font-family: 'Keep Calm';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/KeepCalm-Medium.ttf);
+}
+/* GENERAL STYLES
+----------------------------------------------- */
+
+html {overflow-x: hidden; font-family: 'Lato'; color: black; background-color: #ECF0F1;}
+body { margin: 0; z-index: 1;position: relative;}
+p, a, li {line-height: 1.5; font-size: 20px;}
+ul(display:	)
+li {display: list-item;}
+a {color: #2980B9; text-decoration: none}
+h1 {font-size: 40px;}
+h2 {font-size: 35px;}
+h3 {font-size: 30px;}
+h4 {font-size: 25px;}
+h5 {font-size: 20px;}
+h6 {font-size: 15px;}
+
+/* ----- SELECTION COLORS ----- */
+/* ----- LINKS ----- */
+
+
+/* PAGE STRUCTURE
+----------------------------------------------- */
+
+/* Introduction Message */
+
+#canvas { position: absolute; z-index: -90;}
+#intro, #subintro, #subintro1, #subintro2, #subintro3 {
+	position: relative;
+	height:25vh;
+	text-align: center;
+	font-size: 2vmin;
+	font-family: 'BIG JOHN';
+}
+#intro-small, #subintro, #subintro1, #subintro2, #subintro3 {font-family: 'Keep Calm'; color: #ECF0F1;}
+#intro {height:100vh;}
+#intro:before, #intro:after, #subintro:before, #subintro:after, #subintro1:before, #subintro1:after, #subintro2:before, #subintro2:after, #subintro3:before, #subintro3:after {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top:0;
+    display: block;
+    width: 50%;
+    height: 100%;
+    border-bottom: 2.5vh solid;
+    border-bottom-color: #ECF0F1;
+}
+#intro:before, #subintro:before, #subintro1:before, #subintro2:before, #subintro3:before {left: 0; border-right: 20px solid transparent; border-left: 0;}
+#intro:after, #subintro:after, #subintro1:after, #subintro2:after, #subintro3:after {right: 0; border-left: 20px solid transparent; border-right: 0;}
+#spacer {height:35vh;}
+#subspacer {height:7vh;}
+#intro-small {font-size: 5vmin;}
+#intro-large {font-size: 10vmin;}
+
+/* Introduction Information */
+
+#info-wrapper-wrapper {background-color: #ECF0F1}
+#info-wrapper {margin: 0 auto; overflow: hidden; padding-top: 3vh}
+.main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
+#sub-text {	padding-bottom: 3vh;}
+/*.caption {text-align: center;}*/
+#sub-text a, #detail1, #detail2, #detail3, #detail4, #detail5, em a {color:#f1c40f; text-decoration: none; cursor: pointer;}
+
+/* Page Links */
+
+#pages-wrapper {font-family: 'Keep Calm';}
+#blog {
+	float: left;
+}
+#contact {
+	float: right;
+}
+#about {
+	float: left;
+}
+#projects {
+	float: left;
+}
+#pages-wrapper {height:25vw; width: 100vw;}
+#about, #blog, #contact, #projects {
+	height: 25vw;
+	text-decoration: none;
+	font-size: 3vw;
+	width: 25vw;
+	text-align: center;
+	line-height: 25vw;
+}
+
+/* Content */
+.post-date {
+	float: right;
+	line-height: 1.5;
+	padding-top: 8px;
+}
+.post-title a{
+	font-size: 30px;
+	font-weight: 700;
+}
+img {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+#blog, #subintro1 {background-color: #2980B9;}
+
+/* WIDE DESKTOP LAYOUT 
+----------------------------------------------- */
+@media only screen and (min-width: 992px) {
+	#info-wrapper { width: 700px; }
+	#text {
+		width:450px;
+		float: left;
+		padding-top: 3vh;
+		padding-bottom: 4.5vh;
+	}
+	.profile-spacer {height: 3vh;}
+	.profile, .profileV{
+		padding-bottom: 3vh;
+		float: right;
+		width:450px;
+		overflow:hidden;
+	}
+	.picture {
+		width: 450px;
+	}
+	#pages-wrapper {height:25vh; width: 100vw;}
+	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
+	.to100 {width: 50%;}
+} /* CLOSE WIDE LAYOUT */
+
+/* TABLET LAYOUT 
+----------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#intro {background-color: #0D47A1;}
+	#info-wrapper {width: 700px;}
+	#text {
+		width:384px;
+		float: left;
+		padding-top: 3vh;
+		padding-bottom: 3vh;
+	}
+	.profile-spacer {height: 3vh;}
+	.profile, .profileV{
+		padding-bottom: 3vh;
+		float: right;
+		width:364px;
+		padding-left: 20px;
+		overflow:hidden;
+	}
+	.to100 {width: 50%;}
+	.picture {
+		width:364px;
+	}
+} /* CLOSE TABLET LAYOUT */
+
+/* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
+----------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#intro {background-color: #0D47A1;}
+	#text, .profileV {padding: 3vw;}
+	.profile-spacer, .profile {display: none;}
+	.revprofile-spacer {height: 3vh;}
+	.mobileC {padding: 3vw;}
+	.to100 {width: 100%;}
+	.posts {
+		padding-left: 2vw;
+		padding-right: 2vw;
+	}
+	img {
+		width: 100%;
+		box-shadow: none;
+	}
+} /* CLOSE WIDE MOBILE LAYOUT
+
+/* MOBILE LAYOUT (PORTRAIT/320PX) 
+----------------------------------------------- */
+@media only screen and (max-width: 480px) {
+	#intro {background-color: #0D47A1;}
+	#text, .profileV {padding: 3vw;}
+	.profile-spacer, .profile {display: none;}
+	#pages-wrapper {height:100vh; width: 100vw; font-size: 80vw;}
+	.revprofile-spacer {height: 3vh;}
+	#about, #blog, #contact, #projects {height: 25vh; width: 100vw; line-height: 25vh; font-size: 13vmin;}
+	#info-wrapper em {line-height: 3em;	font-size: 1em;}
+	.eCustom {display: block; width: 100%}
+	.mobileC {padding: 3vw;}
+	.to100 {width: 100%;}
+	.posts {
+		padding-left: 2vw;
+		padding-right: 2vw;
+	}
+	img {
+		width: 100%;
+		box-shadow: none;
+	}
+} /* CLOSE MOBILE LAYOUT */
