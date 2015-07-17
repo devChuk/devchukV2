@@ -246,6 +246,9 @@ img {
 	.picture {
 		width:364px;
 	}
+	img {
+		width: 100%;
+	}
 } /* CLOSE TABLET LAYOUT */
 
 /* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
