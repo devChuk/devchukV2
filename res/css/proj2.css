@@ -218,6 +218,9 @@ img {
 	#pages-wrapper {height:25vh; width: 100vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
 	.to100 {width: 50%;}
+	img {
+		width: 100%;
+	}
 } /* CLOSE WIDE LAYOUT */
 
 /* TABLET LAYOUT 
