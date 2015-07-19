@@ -16,7 +16,7 @@ collections:
 title:            'Brian Chuk'
 tagline:          'A personal website'
 description:      'A personal website of Brian Chuk'
-url:              http://devchuk.github.io/devchuk2
+url:              http://devchuk.github.io
 baseurl:          
 
 author:
@@ -31,6 +31,6 @@ excerpt_separator: <!---excerpt-->
 version:          2.1.0
 
 github:
-  repo:           https://github.com/devChuk/devchuk2
+  repo:           https://github.com/devChuk.github.io
 
 exclude:          [./_posts/new.py, ./_projects/new.py, ./_projects/log.txt]
