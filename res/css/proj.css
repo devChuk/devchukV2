@@ -292,7 +292,7 @@ h6 {font-size: 15px;}
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;}
+	#pages-tabs .tab {height: 25px;  width: 25vw;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
