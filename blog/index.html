@@ -20,13 +20,13 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
     <meta name="theme-color" content="#2C3E50">
     <title>Blog | Brian Chuk</title>
 
-    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/chromestylesheet.css">
-    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/posts.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/res/css/chromestylesheet.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/res/css/posts.css">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://devchuk.github.io/devchuk2/res/css/buttons.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/res/css/buttons.css">
   </head>
   <body>
     <div id="pages-tabs">
@@ -45,7 +45,7 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
               {% for post in paginator.posts %}
               <div class="post">
                 <span class="post-title">
-                  <a href="/devchuk2{{ post.url }}">
+                  <a href="{{ post.url }}">
                     {{ post.title }}
                   </a>
                 </span>
@@ -62,15 +62,15 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
             <center>
             <div class="pagination">
               {% if paginator.next_page %}
-                <a class="button button-rounded button-blog" href="{{ site.baseurl }}/devchuk2/blog/page{{paginator.next_page}}"><i class="fa fa-arrow-left"></i></a>
+                <a class="button button-rounded button-blog" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}"><i class="fa fa-arrow-left"></i></a>
               {% else %}
                 <span class="button button-rounded button-blog disabled"><i class="fa fa-arrow-left"></i></span>
               {% endif %}
               {% if paginator.previous_page %}
                 {% if paginator.page == 2 %}
-                  <a class="button button-rounded button-blog" href="{{ site.baseurl }}/devchuk2/blog/"><i class="fa fa-arrow-right"></i></a>
+                  <a class="button button-rounded button-blog" href="{{ site.baseurl }}/blog/"><i class="fa fa-arrow-right"></i></a>
                 {% else %}
-                  <a class="button button-rounded button-blog" href="{{ site.baseurl }}/devchuk2/blog/page{{paginator.previous_page}}"><i class="fa fa-arrow-right"></i></a>
+                  <a class="button button-rounded button-blog" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}"><i class="fa fa-arrow-right"></i></a>
                 {% endif %}
               {% else %}
                 <span class="button button-rounded button-blog disabled"><i class="fa fa-arrow-right"></i></span>
