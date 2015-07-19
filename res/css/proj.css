@@ -125,7 +125,7 @@ h6 {font-size: 15px;}
 
 /* Page Links */
 
-#pages-wrapper {font-family: 'Keep Calm';}
+#pages-wrapper, #pages-tabs {font-family: 'Keep Calm'; width: 100vw;}
 #blog {
 	float: left;
 }
@@ -138,7 +138,8 @@ h6 {font-size: 15px;}
 #projects {
 	float: left;
 }
-#pages-wrapper {height:25vw; width: 100vw;}
+#pages-wrapper {height:25vw;}
+#pages-tabs {height: 25px;}
 #about, #blog, #contact, #projects {
 	height: 25vw;
 	text-decoration: none;
@@ -146,6 +147,9 @@ h6 {font-size: 15px;}
 	width: 25vw;
 	text-align: center;
 	line-height: 25vw;
+}
+.tab {
+	height: 25px;
 }
 
 /* Content */
@@ -216,6 +220,8 @@ h6 {font-size: 15px;}
 	}
 	#pages-wrapper {height:25vh; width: 100vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
+	#pages-tabs {height: 25px; width: 100vw;}
+	#pages-tabs .tab {height: 25px;}
 	.to100 {width: 50%;}
 } /* CLOSE WIDE LAYOUT */
 
@@ -238,6 +244,8 @@ h6 {font-size: 15px;}
 		padding-left: 20px
 		overflow:hidden;
 	}
+	#pages-tabs {height: 25px; width: 100vw;}
+	#pages-tabs .tab {height: 25px;}
 	.to100 {width: 50%;}
 	.picture {
 		width:364px;
@@ -253,6 +261,8 @@ h6 {font-size: 15px;}
 	.revprofile-spacer {height: 3vh;}
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
+	#pages-tabs {height: 25px; width: 100vw;}
+	#pages-tabs .tab {height: 25px;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
@@ -278,6 +288,8 @@ h6 {font-size: 15px;}
 	.eCustom {display: block; width: 100%}
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
+	#pages-tabs {height: 25px; width: 100vw;}
+	#pages-tabs .tab {height: 25px;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
