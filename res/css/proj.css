@@ -170,6 +170,9 @@ h6 {font-size: 15px;}
 #buttons {display: inline-block;}
 #button-container {text-align: center; width: 100%;}
 #blog, #subintro2 {background-color: #2980B9;}
+#about {background-color: #E74C3C;}
+#projects {background-color: #2980B9;}
+#contact {background-color: #3498DB;}
 
 
 @media only screen and (min-width: 1440px) {
