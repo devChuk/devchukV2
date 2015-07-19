@@ -169,9 +169,9 @@ h6 {font-size: 15px;}
 /* Projects Elements */
 #buttons {display: inline-block;}
 #button-container {text-align: center; width: 100%;}
-#blog, #subintro2 {background-color: #2980B9;}
+#blog {background-color: #D35400;}
 #about {background-color: #E74C3C;}
-#projects {background-color: #2980B9;}
+#projects, #subintro2 {background-color: #2980B9;}
 #contact {background-color: #3498DB;}
 
 
