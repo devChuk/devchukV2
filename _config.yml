@@ -33,4 +33,4 @@ version:          2.1.0
 github:
   repo:           https://github.com/devChuk/devchuk2
 
-exclude:          [./_posts/new.py, ./_projects/new.py]
+exclude:          [./_posts/new.py, ./_projects/new.py, ./_projects/log.txt]
