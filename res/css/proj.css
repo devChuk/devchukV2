@@ -20,6 +20,7 @@ input, select { vertical-align: middle; }
 a img { border: 0; }
 :focus { outline: 0; }
 a:hover, a:active { outline: none; }
+figcaption {background: rgba(10%, 10%, 10%, 0.65)}
 
 /* FONT IMPORTS
 ----------------------------------------------- */
