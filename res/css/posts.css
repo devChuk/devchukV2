@@ -226,7 +226,7 @@ img {
 	#pages-wrapper {height:25vh; width: 100vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px; color: #ECF0F1;}
 	.to100 {width: 50%;}
 } /* CLOSE WIDE LAYOUT */
 
