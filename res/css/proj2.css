@@ -286,7 +286,7 @@ img {
 		padding-left: 2vw;
 		padding-right: 2vw;
 	}
-	img {
+	img, .cimg {
 		width: 100%;
 		box-shadow: none;
 	}
