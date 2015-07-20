@@ -189,13 +189,17 @@ h6 {font-size: 15px;}
 	font-weight: 700;
 }
 img {
-    box-shadow: 10px 10px 5px #888888;
+    /*box-shadow: 10px 10px 5px #888888;*/
 }
 .cimg {
 	width: 500px;
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+.himg {
+	width: 500px;
+	display: inline;
 }
 
 #blog, #subintro1 {background-color: #2980B9;}
