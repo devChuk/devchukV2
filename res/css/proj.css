@@ -67,7 +67,6 @@ a:hover, a:active { outline: none; }
 html {overflow-x: hidden; font-family: 'Lato'; color: black; background-color: #2C3E50;}
 body { margin: 0; z-index: 1;position: relative;}
 p, a, li {line-height: 1.5; font-size: 20px;}
-ul(display:	)
 li {display: list-item;}
 a {color: #E67E22; text-decoration: none}
 h1 {font-size: 40px;}
@@ -172,7 +171,7 @@ h6 {font-size: 15px;}
 #blog {background-color: #F39C12;}
 #about {background-color: #E74C3C;}
 #projects, #subintro2 {background-color: #2980B9;}
-#contact {background-color: #3498DB;}
+#contact {background-color: #8E44AD;}
 
 
 @media only screen and (min-width: 1440px) {
@@ -224,7 +223,7 @@ h6 {font-size: 15px;}
 	#pages-wrapper {height:25vh; width: 100vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
 	.to100 {width: 50%;}
 } /* CLOSE WIDE LAYOUT */
 
@@ -248,7 +247,7 @@ h6 {font-size: 15px;}
 		overflow:hidden;
 	}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
 	.to100 {width: 50%;}
 	.picture {
 		width:364px;
@@ -265,7 +264,7 @@ h6 {font-size: 15px;}
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
@@ -292,7 +291,7 @@ h6 {font-size: 15px;}
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;  width: 25vw;}
+	#pages-tabs .tab {height: 25px;  width: 25vw; line-height: 25px; font-size: 14px;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;

@@ -200,7 +200,7 @@ img {
 #blog, #subintro1 {background-color: #F39C12;}
 #about {background-color: #E74C3C;}
 #projects {background-color: #2980B9;}
-#contact {background-color: #3498DB;}
+#contact {background-color: #8E44AD;}
 
 
 /* WIDE DESKTOP LAYOUT 
@@ -226,7 +226,7 @@ img {
 	#pages-wrapper {height:25vh; width: 100vw;}
 	#about, #blog, #contact, #projects {height: 25vh; width: 25vw; line-height: 25vh;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
 	.to100 {width: 50%;}
 } /* CLOSE WIDE LAYOUT */
 
@@ -250,7 +250,7 @@ img {
 		overflow:hidden;
 	}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
 	.to100 {width: 50%;}
 	.picture {
 		width:364px;
@@ -267,7 +267,7 @@ img {
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
@@ -292,7 +292,7 @@ img {
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px; width: 25vw;}
+	#pages-tabs .tab {height: 25px; width: 25vw; line-height: 25px; font-size: 14px;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;

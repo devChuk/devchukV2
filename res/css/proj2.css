@@ -147,7 +147,7 @@ h6 {font-size: 15px;}
 /* Introduction Information */
 
 #info-wrapper-wrapper {background-color: #ECF0F1}
-#info-wrapper {margin: 0 auto; overflow: hidden; padding-top: 3vh}
+#info-wrapper {margin: 0 auto; padding-top: 3vh}
 .main-text {font-weight: bold; font-size: 35px; padding-bottom: 3vh;}
 #sub-text {	padding-bottom: 3vh;}
 /*.caption {text-align: center;}*/
