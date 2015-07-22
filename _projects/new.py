@@ -13,7 +13,7 @@ log.close()
 log = open('log.txt', 'w')
 log.write(str(order))
 
-text = '---\nlayout: project\ntitle: '+title+'\ndescription: \ndate: \nimg: \ncategory: \norder: '+str(order)+'\n---\n\n\n\n'
+text = '---\nlayout: project\ntitle: '+title+'\ndescription: \ndate: \nimg: \ncategory: \norder: '+str(order)+'\n---\n\n'
 
 file = open(fileName, "w")
 file.write(text)
