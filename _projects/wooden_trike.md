@@ -30,3 +30,5 @@ It was so light that it was able to be easily carried up and down staircases, so
 ![Inside](http://devchuk.github.io/devchukV1/res/img/portimg/the_wooden_trike/prof.jpg)
 
 I ended up doing really well on the final project grade. One of these days, I'll come back with an electric wooden one.
+
+**Tech:** Woodworking

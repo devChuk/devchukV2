@@ -25,3 +25,5 @@ Unfortunately, these sensors aren't perfect. There's a lot of noise when flying 
 Other parts we used were a carbon fiber frame, a Q Brain Quadruple ESC, four brushless motors & rotors, and a battery.
 
 <iframe width="100%" height="480" src="//www.youtube.com/embed/ggZWCVDdSWQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+**Tech:** Arduino, Electrical Engineering

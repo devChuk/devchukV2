@@ -21,3 +21,5 @@ We started out with the ribs of the boat during very cold January days and wrapp
 The planks were finished off with gunwales, and the rest of the parts of the boat were added. 
 
 ![](http://devchuk.github.io/devchukV1/res/img/portimg/whitehall_gig/ayy.jpg)
+
+**Tech:** Woodworking
