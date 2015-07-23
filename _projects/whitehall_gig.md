@@ -2,7 +2,7 @@
 layout: project
 title: Whitehall Gig
 description: A boathouse project
-date: Jan 2014 - Mar 2014
+date: Jan - Mar 2014
 img: http://devchuk.github.io/devchukV1/res/img/portimg/whitehall_gig/profile.jpg
 category: misc
 order: 5
