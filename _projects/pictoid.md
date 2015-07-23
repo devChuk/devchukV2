@@ -29,3 +29,5 @@ Over time, the ideas conveyed through the words and pictures will mutate into ot
 **Tech:** HTML, CSS, Javascript, Parse, NodeJS
 
 [View the source code](https://github.com/devChuk/HackBCA_CSTUY)
+
+[Challengepost](http://challengepost.com/software/pictoid)
