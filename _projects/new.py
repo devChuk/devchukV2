@@ -3,6 +3,7 @@ import datetime
 import os
 
 title = raw_input('\nEnter title: ')
+date = raw_input('\nEnter date: ')
 fileName= title.replace(" ", "_").lower() + '.md'
 print fileName + '\n'
 
@@ -13,7 +14,7 @@ log.close()
 log = open('log.txt', 'w')
 log.write(str(order))
 
-text = '---\nlayout: project\ntitle: '+title+'\ndescription: \ndate: \nimg: \ncategory: \norder: '+str(order)+'\n---\n\n'
+text = '---\nlayout: project\ntitle: '+title+'\ndescription: \ndate: '+date+'\nimg: \ncategory: \norder: '+str(order)+'\n---\n\n'
 
 file = open(fileName, "w")
 file.write(text)
