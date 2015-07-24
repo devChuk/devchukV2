@@ -36,3 +36,5 @@ Key Features:
 **Tech:** Android, Twilio, NodeJS, Java, Javascript
 
 Check out our source code [here](https://github.com/AFARsystem/).
+
+[Challengepost](http://challengepost.com/software/afar-advanced-first-aid-response-system)
