@@ -1,5 +1,5 @@
 var buttons = document.getElementsByTagName('button');
-
+buttons[0].classList.add('disabled');
 sortList(document.getElementsByClassName('grid')[0]);
 
 function sortList(ul) {
@@ -36,15 +36,27 @@ for (var i = 0; i < buttons.length; i++) {
 				for (var i = 0; i < figures.length; i++) {
 					figures[i].style.display = 'block';
 				}
+				for (var i = 0; i < buttons.length; i++)
+					buttons[i].classList.remove('disabled');
+				this.classList.add('disabled');
 				break;
 			case "SOFTWARE":
 				hide('.software', ['.hardware', '.misc']);
+				for (var i = 0; i < buttons.length; i++)
+					buttons[i].classList.remove('disabled');
+				this.classList.add('disabled');
 				break;
 			case "HARDWARE":
 				hide('.hardware', ['.software', '.misc']);
+				for (var i = 0; i < buttons.length; i++)
+					buttons[i].classList.remove('disabled');
+				this.classList.add('disabled');
 				break;
 			case "MISC":
 				hide('.misc', ['.hardware', '.software']);
+				for (var i = 0; i < buttons.length; i++)
+					buttons[i].classList.remove('disabled');
+				this.classList.add('disabled');
 				break;
 		}
 	});
