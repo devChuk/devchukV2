@@ -15,7 +15,7 @@ fileName= date + '-' + title.replace(" ", "_").lower() + '.md'
 print fileName
 file = open(fileName, "w")
 
-file.write('---\nlayout: post\ntitle: ' + title + '\n---\n\n\n\n')
+file.write('---\nlayout: post\ntitle: ' + title + '\n---\n\n')
 
 print '\nFile is generated!'
 
