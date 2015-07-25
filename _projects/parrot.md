@@ -15,7 +15,7 @@ When we read blocks of texts, it takes time for our eyes to travel from word to 
 <img class= "himg" src="http://devchuk.github.io/devchukV1/res/img/portimg/parrot/Loader.jpg">
 <img class="himg" src="http://devchuk.github.io/devchukV1/res/img/portimg/parrot/Library.jpg" style="float:right">
 
-Parrot is an app that lets you save articles, blog posts, or books to read later—even without an Internet connection. However, unlike other offline content savers, Parrot significantly enhances our reading speed by flashing a single word one at a time at a very high rate instead of simply displaying blocks of text.
+So at McHacks 2015, we made Parrot. Parrot is an app that lets you save articles, blog posts, or books to read later—even without an Internet connection. However, unlike other offline content savers, Parrot significantly enhances our reading speed by flashing a single word one at a time at a very high rate instead of simply displaying blocks of text.
 
 Here's how it works:
 

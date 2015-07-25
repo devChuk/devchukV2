@@ -18,4 +18,6 @@ To solve problems like this, Jack and I created a hack during [HackNY](http://ha
 
 Check out our source code [here](https://github.com/jackcook/seekbar/tree/gh-pages).
 
+[HackerLeague page](https://www.hackerleague.org/hackathons/fall-2014-hackny-student-hackathon/hacks/seekbar)
+
 **Tech:** NodeJS, Javascript, HTML, CSS, several supermarket/store/retail APIs
