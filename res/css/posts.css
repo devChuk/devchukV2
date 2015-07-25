@@ -256,7 +256,7 @@ img {
 		overflow:hidden;
 	}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px; color: #ECF0F1;}
 	.to100 {width: 50%;}
 	.picture {
 		width:364px;
@@ -273,7 +273,7 @@ img {
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px; color: #ECF0F1;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
@@ -298,7 +298,7 @@ img {
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px; width: 25vw; line-height: 25px; font-size: 14px;}
+	#pages-tabs .tab {height: 25px; width: 25vw; line-height: 25px; font-size: 14px; color: #ECF0F1;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
