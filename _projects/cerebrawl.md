@@ -5,7 +5,7 @@ description: Tug of War with Brainwaves
 date: Apr 2015
 img: http://devchuk.github.io/devchukV1/res/img/portimg/cerebrawl/prof.png
 category: hardware
-order: 21
+order: 22
 ---
 
 ![](http://devchuk.github.io/devchukV1/res/img/portimg/cerebrawl/cere.png)
