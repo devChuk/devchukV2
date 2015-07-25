@@ -1,6 +1,6 @@
 ---
 layout: project
-title: GPS Skateboard
+title: GPS Board
 description: Skating-friendly Navigation
 date: Nov 2014
 img: http://devchuk.github.io/devchukV1/res/img/portimg/pennypimping/ride2.png
