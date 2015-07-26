@@ -194,6 +194,7 @@ h6 {font-size: 15px;}
 }
 img {
     /*box-shadow: 10px 10px 5px #888888;*/
+    width: 100%;
 }
 .cimg {
 	width: 500px;
