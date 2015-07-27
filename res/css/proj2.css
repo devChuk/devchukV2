@@ -304,7 +304,7 @@ img {
 	.mobileC {padding: 3vw;}
 	.to100 {width: 100%;}
 	#pages-tabs {height: 25px; width: 100vw;}
-	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px; color: #ECF0F1;}
+	#pages-tabs .tab {height: 25px; line-height: 25px; font-size: 14px; color: #ECF0F1; width: 25vw;}
 	.posts {
 		padding-left: 2vw;
 		padding-right: 2vw;
