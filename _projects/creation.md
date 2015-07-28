@@ -10,7 +10,7 @@ order: 19
 
 <iframe width="100%" height="390" src="https://www.youtube.com/embed/gvHnZWnpEhY" frameborder="0" allowfullscreen></iframe>
 
-3D modelling and printing has been something that I've always been working with for a while. I've used it at research, at work, and at school projects. So when I saw that [MHacks V](http://mhacks.org/) was lending these augmented reality [Meta Glasses](https://www.youtube.com/watch?v=b7I7JuQXttw), I wanted to experience a 3D modelling tool in a totally new form.
+3D modelling and printing has been something that I've always been working with for a while. I've used it in research, at work, and at school projects. So when I saw that [MHacks V](http://mhacks.org/) was lending these augmented reality [Meta Glasses](https://www.youtube.com/watch?v=b7I7JuQXttw), I wanted to experience a 3D modelling tool in a totally new form.
 
 That's what Creation is. My team and I wanted to make a tool so easy that no training was required to create 3D models.
 
