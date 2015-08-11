@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Owl
-description: Drunk detection with accelerometers
+description: Drunk detection app
 date: Aug 2015
 img: http://devchuk.github.io/devchukV1/res/img/portimg/owl/prof.png
 category: software
