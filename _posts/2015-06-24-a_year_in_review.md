@@ -61,6 +61,6 @@ From that point to this day, I've showed up to
 	<small>I'll keep updating this list as I go to more</small>
 </ol>
 
-If I was able to give advice to myself one year ago, I wouldn't have anything to say. I'm content with where I am and the direction I think I'm moving towards.
+If I was able to give advice to myself one year ago, I wouldn't have anything to say. I'm happy with where I am and the direction I think I'm moving towards.
 
 So what's next? I'll build even cooler stuff and have more adventures with awesome people. The point of this website is to record exactly that. There's a huge list of ideas I'd like to try out, and now's the best time to get started.
