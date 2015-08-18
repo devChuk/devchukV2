@@ -49,9 +49,9 @@ I was pretty confident with what I wanted to do with my life before this summer 
 
 > As for yourself: diet, exercise, regular sleep and regular meals, and working sane hours. Work on your own mental, social, and physical health. Your finances and your cash flow and your sleep and your meal schedules are all part of this health, too.
 
-> Schedule time for yourself. Outside of your job. Both to learn and grow, and for socializing. Seek out folks that will challenge you — either at work, at university, at a Maker's event, or outside. Seek out and talk with folks of different backgrounds and interest areas and any of the different genders and of different personal histories and experiences. Learn a new language.
+> Schedule time for yourself. Outside of your job. Both to learn and grow, and for socializing. Seek out folks that will challenge you—either at work, at university, at a Maker's event, or outside. Seek out and talk with folks of different backgrounds and interest areas and any of the different genders and of different personal histories and experiences. Learn a new language.
 
-> Once you have pondered on these and have your plans underway, then you can start working on the technologies and the tools and the online courses and classes and the rest. If they're applicable, and how you best learn.
+> Once you have pondered on these and have your plans underway, then you can start working on the technologies and the tools and the online courses and classes and the rest. See if they're applicable, and how you best learn.
 
 > While your employer will certainly like the focus on your career, life is more about yourself.
 
