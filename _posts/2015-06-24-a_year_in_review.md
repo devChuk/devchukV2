@@ -58,6 +58,8 @@ From that point to this day, I've showed up to
 	<li>Angelhack Manhattan</li>
 	<li>Battlehack NYC</li>
 	<li>Hack the Planet</li>
+	<li>PennApps XII</li>
+	<li>MHacks 6</li>
 	<small>I'll keep updating this list as I go to more</small>
 </ol>
 
