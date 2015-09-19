@@ -26,7 +26,7 @@ That's where [hackathons](http://www.brianch.uk/devchukV1/blog/2014/09/28/hackli
 
 From that point to this day, I've showed up to
 <a id="show_id" onclick="if(document.getElementById('spoiler_id').style.display=='none')document.getElementById('spoiler_id').style.display='';else document.getElementById('spoiler_id').style.display='none';" class="link" style="cursor:pointer">
-	30
+	32
 </a> of them.
 <br>
 <ol id="spoiler_id" style="display: none">
@@ -60,6 +60,8 @@ From that point to this day, I've showed up to
 	<li>Hack the Planet</li>
 	<li>PennApps XII</li>
 	<li>MHacks 6</li>
+	<li>HackMIT</li>
+	<li>HackGT</li>
 	<small>I'll keep updating this list as I go to more</small>
 </ol>
 
