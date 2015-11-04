@@ -3,6 +3,8 @@ layout: post
 title: My hackNY Application
 ---
 
+![](http://www.brianch.uk/res/img/blog/hackny.png)
+
 A good number of people have asked for advice in applying to hackNY, so instead of copying & pasting the same things over and over I've decided to just post it here. If you're an aspiring developer or software engineer, the hackNY fellowship is **the best thing you can do with your summer**.
 
 Students who are accepted into the fellowship get to
