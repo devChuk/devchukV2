@@ -82,3 +82,5 @@ Android
 What's interesting is that most of my responses are extremely brief. I think what truly showed my passion and technological prowess was the [old website](http://brianch.uk/devchukV1/) I had at the time.
 
 If you need more inspiration, go read [Kevin's post](http://kyeh.me/2015/10/29/the-road-to-hackny/) and [Simon's post](https://medium.com/@simonayzman/how-i-hacked-ny-5589ca50ccc3#.8imf06ngs). You can also read more advice on [https://apply.hackny.org/](https://apply.hackny.org/). Good luck!
+
+~ Brian Chuk

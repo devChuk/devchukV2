@@ -21,6 +21,4 @@ As we toured the campus, I couldn't help but feel pangs of jealousy for Patrick 
 
 In the end, these are the cards I'm dealt and I can't fold. Although my college is lacking, I fortunately am able to self-teach myself the tools I need in order to work towards my dreams, as I always have. Even though there is no makerspace or prototyping lab here to allow me to build anything I want, it's not like a lack of resources stopped me before. That [wooden bike](http://devchuk.github.io/devchukV1/portfolio/miscellaneous/the_wooden_trike.html) I built was made in one night with only a handsaw, a drill, and a dismissal of common sense on a small coffee table. It's not going to be easy at all, but I'll try my best. Hopefully after many years I can look back at this and be able to say that I have stuck to my words.
 
-###Be relentless in the pursuit of a life worth the living.
-
 ~ Brian Chuk
