@@ -37,3 +37,5 @@ title: Hackathon History
 32.	HackGT
 33.	YHack
 34.	Wildhacks
+35. PennApps (Hacker guru)
+36. HackNYU (mentor)
