@@ -1,7 +1,6 @@
 # Dependencies
 highlighter:      rouge
-kramdown:
-  input: GFM
+markdown: kramdown
 
 exclude: ['YEAR-MM-DD-example-content.md']
 
