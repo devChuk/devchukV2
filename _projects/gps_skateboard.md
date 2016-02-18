@@ -14,7 +14,7 @@ I've always wanted to do a hardware hack at a hackathon. So what better idea tha
 
 We got really lucky with the idea. The YHack organizers ran out of hardware devices, so our options were severely limited. However, two things happened. Intel was giving out Intel Maker Kits, which had plenty of electrical components to use. Also, I had brought my penny board to YHack because I bring it with me everwhere. That was it. We were going to hack on a skateboard. After some more brainstorming, we decided on one idea.
 
-###GPS nagivation on a penny board
+### GPS nagivation on a penny board
 
 We decided on the materials as we went along:
 
