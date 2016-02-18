@@ -15,7 +15,7 @@ Students who are accepted into the fellowship get to
 
 It really is a great opportunity. I've made friends for life and had to think critically about what I actually want to do in the long run. Feel free to tweet at me on @devchuk or send an email if you have any questions.
 
-####Tell us about a time you built something awesome in code. How did you choose it? Why did you enjoy it?
+#### Tell us about a time you built something awesome in code. How did you choose it? Why did you enjoy it?
 
 So on one Friday night I was attacked by a large black Labrador on my way to college. I managed to grab its head so it wasn't able to bite me, but I still fell onto my left arm and ended up with several lacerations on it. As a result, it was impossible to use my left arm without feeling pain, so I only had one good arm.
 
@@ -27,24 +27,24 @@ I enjoyed working on this project because it solved problems that matter. The In
 
 Another reason why I enjoyed this is because I enjoy programming itself. It's fun to solve puzzles & create clever and awesome things out of nothing.
 
-####Tell us about what you hope to learn this summer and why is hackNY right for you.
+#### Tell us about what you hope to learn this summer and why is hackNY right for you.
 
 Since I am more interested in working in smaller companies instead of large corporate companies I would like to have some experience working in a startup. I also plan to found my own startup farther in the future and thus HackNY would provide invaluable knowledge for me.
 
-####Is there a particular technology or industry you're currently interested in? How come? Where do you see it heading in the future?
+#### Is there a particular technology or industry you're currently interested in? How come? Where do you see it heading in the future?
 
 I’m more interested in hardware and Internet-of-things-related technology because I have experience in hardware and I’m using hardware to make my dorm room amazing. I think that there will be more appliances and objects connected to the Internet in the future.
 
 Technology that provide valuable tools to people is also something that I am interested in.
 
-####Discuss your technical skills/proficiencies/languages and experience
+#### Discuss your technical skills/proficiencies/languages and experience
 
 I'm comfortable with C++, C, Java, Frontend development, JQuery, Javascript, UI design, electrical engineering, and Android app development.
 I've been to around 18 hackathons so far, and it's only my freshman year. As a result, I'm a master of learning how to use a new language or tool in a very very short period of time. There's nothing I can't learn.
 
 I've had jobs where I get paid to design, prototype, & build flying camera livestreaming devices from scratch all by myself.
 
-####When you're not coding, what do you like to do for fun?
+#### When you're not coding, what do you like to do for fun?
 
 I have woodworking as a hobby, but I find building normal chairs and tables a bit boring if I don't need them. So I build boats, bikes, and weapons:
 
@@ -59,7 +59,7 @@ Electrical engineering doesn't really fully count as coding so I've made drones 
 - [http://brianch.uk/devchukV1/portfolio/hardware/robot_arm.html](http://brianch.uk/devchukV1/portfolio/hardware/robot_arm.html)
 - [http://brianch.uk/devchukV1/portfolio/hardware/quadcopter.html](http://brianch.uk/devchukV1/portfolio/hardware/quadcopter.html)
 
-####Code sample from two projects open source projects, side projects, hackathon hacks, professional work, etc. That said, if you have school projects that you think are exceptional, we'd love to see them.
+#### Code sample from two projects open source projects, side projects, hackathon hacks, professional work, etc. That said, if you have school projects that you think are exceptional, we'd love to see them.
 
 [https://github.com/devChuk/InfinityKeyboard/blob/master/backend/textPredict.cpp](https://github.com/devChuk/InfinityKeyboard/blob/master/backend/textPredict.cpp)
 
