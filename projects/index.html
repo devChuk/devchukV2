@@ -55,7 +55,7 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 								<img src="{{ proj.img }}" />
 								<figcaption>
 									<h2><span>{{ proj.title }}</span></h2>
-									<p>{{ proj.description }}<br>{{ proj.date }}</p>
+									<p>{{ proj.description }}<br>{{ proj.date | date: "%h %Y" }}</p>
 									<a href="{{ proj.url }}">View more</a>
 								</figcaption>		
 							</figure>
