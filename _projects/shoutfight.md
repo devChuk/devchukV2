@@ -2,7 +2,7 @@
 layout: project
 title: ShoutFight
 description: Shout-powered fighting game
-date: 11-07-2015
+date: Nov 2015
 img: http://www.brianch.uk/devchukV1/res/img/portimg/shoutfight/fireball3.png
 category: software
 order: 25
