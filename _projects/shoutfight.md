@@ -27,7 +27,7 @@ Game characters (Yoshis) are able to move sideways, block, and jump with four bu
 - jump height 
 - fireball rate of fire
 
-Keep in mind that shouting for an extended period of time is more effective than a single loud yell. This achieves more of a DragonBallZ effect and adds to the fun of the game.
+Keep in mind that shouting for an extended period of time is more effective than a single loud yell. This achieves more of a [DragonBallZ effect](https://youtu.be/bH_CcJ-uBWI) and adds to the fun of the game.
 
 The screen also shakes when the shouting become intense enough.
 
