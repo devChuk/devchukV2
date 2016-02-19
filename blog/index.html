@@ -51,7 +51,7 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
                   </a>
                 </span>
 
-                <small class="post-date">{{ post.date | date_to_long_string }}</small>
+                <small class="post-date">{{ post.date | date: "%B %-d %Y" }}</small>
                 <div class="content">
                   {{ post.content }}
                 </div>

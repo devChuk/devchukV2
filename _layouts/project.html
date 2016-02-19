@@ -45,7 +45,7 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
                   </a>
                 </span>
 
-                <small class="post-date">{{ page.date }}</small>
+                <small class="post-date">{{ page.date | date: "%B %Y" }}</small>
                 <div class="content">
                   {{ content }}
                 </div>

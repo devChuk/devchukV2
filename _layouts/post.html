@@ -45,7 +45,7 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
                   </a>
                 </span>
 
-                <small class="post-date">{{ page.date | date_to_string }}</small>
+                <small class="post-date">{{ page.date | date: "%B %-d %Y" }}</small>
                 <div class="content">
                   {{ content }}
                   <!-- <span style="color:#de3230;font-weight:bold">{{ page.title }}</span>
