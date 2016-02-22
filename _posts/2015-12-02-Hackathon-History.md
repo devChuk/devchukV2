@@ -3,6 +3,8 @@ layout: post
 title: Hackathon History
 ---
 
+Just a list of all the hackathons I've attended
+
 1. Codeday New York Spring
 2. HackBCA (Pictoid)
 3. HackNYU (Blackout)
@@ -37,5 +39,4 @@ title: Hackathon History
 32.	HackGT
 33.	YHack
 34.	Wildhacks
-35. PennApps (Hacker guru)
-36. HackNYU (mentor)
+35. PennApps (Hacker Guru)
