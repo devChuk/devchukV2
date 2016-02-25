@@ -108,6 +108,22 @@ h5 {font-size: 20px;}
 h6 {font-size: 15px;}
 
 /* ----- SELECTION COLORS ----- */
+
+*::-moz-selection {
+    background:#2980B9;
+    color:#fff;
+}
+
+*::-webkit-selection {
+    background:#2980B9;
+    color:#fff;
+}
+
+*::selection {
+    background:#2980B9;
+    color:#fff;
+}
+
 /* ----- LINKS ----- */
 
 
