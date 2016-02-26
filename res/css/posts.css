@@ -91,19 +91,23 @@ a:hover, a:active { outline: none; }
   font-weight: 400;
   src: url(./fonts/KeepCalm-Medium.ttf);
 }
-/* Charter */
+/* Computer Modern */
 @font-face {
-  font-family: 'Charter';
+  font-family: 'Computer Modern';
   font-style: normal;
   font-weight: 400;
-  src: url(./fonts/Charter.ttf);
+  src: url('./fonts/Serif/cmunrm.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/Serif/cmunrm.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Serif/cmunrm.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/Serif/cmunrm.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/Serif/cmunrm.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 /* GENERAL STYLES
 ----------------------------------------------- */
 
 html {overflow-x: hidden; font-family: 'Lato'; color: black; background-color: #ECF0F1;}
 body { margin: 0; z-index: 1;position: relative;}
-p, a, li {line-height: 1.5; font-size: 20px;}
+p, a, li {line-height: 1.5; font-size: 18px;}
 ul(display:	)
 li {display: list-item;}
 a {color: #F39C12; text-decoration: none}
@@ -216,7 +220,7 @@ h6 {font-size: 15px;}
 	font-weight: 700;
 }
 .content {
-	font-family: 'Charter';	
+	font-family: 'Computer Modern';	
 }
 img {
     /*box-shadow: 10px 10px 5px #888888;*/
