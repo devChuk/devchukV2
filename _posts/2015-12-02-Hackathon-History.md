@@ -40,3 +40,5 @@ Just a list of all the hackathons I've attended
 33.	YHack
 34.	Wildhacks
 35. PennApps (Hacker Guru)
+36. hackNY
+37. BitCamp
