@@ -48,16 +48,16 @@ I've had jobs where I get paid to design, prototype, & build flying camera lives
 
 I have woodworking as a hobby, but I find building normal chairs and tables a bit boring if I don't need them. So I build boats, bikes, and weapons:
 
-- [http://brianch.uk/devchukV1/portfolio/miscellaneous/whitehall_gig.html](http://brianch.uk/devchukV1/portfolio/miscellaneous/whitehall_gig.html)
-- [http://brianch.uk/devchukV1/portfolio/miscellaneous/the-wooden-trike.html](http://brianch.uk/devchukV1/portfolio/miscellaneous/the_wooden_trike.html)
-- [http://brianch.uk/devchukV1/portfolio/miscellaneous/crossbows.html](http://brianch.uk/devchukV1/portfolio/miscellaneous/crossbows.html)
+- [http://brianch.uk/devchukV1/portfolio/miscellaneous/whitehall_gig.html](http://brianch.uk/devchukV1/portfolio/miscellaneous/whitehall_gig/)
+- [http://brianch.uk/devchukV1/portfolio/miscellaneous/the-wooden-trike.html](http://brianch.uk/devchukV1/portfolio/miscellaneous/the_wooden_trike/)
+- [http://brianch.uk/devchukV1/portfolio/miscellaneous/crossbows.html](http://brianch.uk/devchukV1/portfolio/miscellaneous/crossbows/)
 
 Speaking of boats, I row on the Hudson river on warmer days. Other things I enjoy are 8ball pool and learning how to do random things such as East Coast Swing and longboarding.
 
 Electrical engineering doesn't really fully count as coding so I've made drones and robotic arms in my free time.
 
-- [http://brianch.uk/devchukV1/portfolio/hardware/robot_arm.html](http://brianch.uk/devchukV1/portfolio/hardware/robot_arm.html)
-- [http://brianch.uk/devchukV1/portfolio/hardware/quadcopter.html](http://brianch.uk/devchukV1/portfolio/hardware/quadcopter.html)
+- [http://brianch.uk/devchukV1/portfolio/hardware/robot_arm.html](http://brianch.uk/devchukV1/portfolio/hardware/robot_arm/)
+- [http://brianch.uk/devchukV1/portfolio/hardware/quadcopter.html](http://brianch.uk/devchukV1/portfolio/hardware/quadcopter/)
 
 #### Code sample from two projects open source projects, side projects, hackathon hacks, professional work, etc. That said, if you have school projects that you think are exceptional, we'd love to see them.
 
