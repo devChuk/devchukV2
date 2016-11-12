@@ -42,3 +42,8 @@ Just a list of all the hackathons I've attended
 35. PennApps (Hacker Guru)
 36. hackNY
 37. BitCamp
+38. Big Red Hacks 2016
+39. MHacks 8
+40. HackRU Fall 2016 (Firefly)
+41. YHack 2016
+42. Wildhacks 2016
