@@ -11,7 +11,7 @@ permalink: /blog/:year/:month/:day/:title/
 collections:
   projects:
     output: true
-    permalink: /devchukV2/:collection/name
+    permalink: /devchukV2/projects/:name
 
 # Setup
 title:            'Brian Chuk'
