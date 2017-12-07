@@ -11,6 +11,7 @@ permalink: /blog/:year/:month/:day/:title/
 collections:
   projects:
     output: true
+    permalink: /devchukV2/:collection/name
 
 # Setup
 title:            'Brian Chuk'
@@ -24,7 +25,7 @@ author:
   url:            https://twitter.com/devchuk
 
 paginate: 1
-paginate_path: "blog/page:num"
+paginate_path: "devchukV2/blog/page:num"
 excerpt_separator: <!---excerpt-->
 
 # Custom vars
