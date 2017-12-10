@@ -46,7 +46,7 @@ Copyright:    2015, Brian Chuk - All rights reserved (you have permission to use
               {% for post in paginator.posts %}
               <div class="post">
                 <span class="post-title">
-                  <a href="{{ post.url }}">
+                  <a href="{{ post.url | prepend:site.baseurl }}">
                     {{ post.title }}
                   </a>
                 </span>

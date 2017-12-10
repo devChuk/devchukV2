@@ -56,7 +56,7 @@ Copyright: 		2015, Brian Chuk - All rights reserved (you have permission to use 
 								<figcaption>
 									<h2><span>{{ proj.title }}</span></h2>
 									<p>{{ proj.description }}<br>{{ proj.date | date: "%h %Y" }}</p>
-									<a href="{{ proj.url }}">View more</a>
+									<a href="{{ proj.url | prepend:site.baseurl }}">View more</a>
 								</figcaption>		
 							</figure>
 		                {% endfor %}
