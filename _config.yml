@@ -34,3 +34,4 @@ github:
   repo:           https://github.com/devChuk.github.io
 
 exclude:          [./_posts/new.py, ./_projects/new.py, ./_projects/log.txt]
+theme: jekyll-theme-minimal
